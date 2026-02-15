@@ -22,7 +22,7 @@
       "id": "MC-002",
       "title": "[HIGH] SPM TikTok Account Setup",
       "description": "Create and configure SPM Markets TikTok account. Repurpose SPM NEWS content for short-form vertical video.",
-      "status": "backlog",
+      "status": "blocked",
       "priority": "high",
       "owner": "spm",
       "brand": "SPM",
@@ -33,14 +33,14 @@
         { "id": "sub_004", "title": "Post first TikTok", "done": false }
       ],
       "dod": "TikTok account live with first video posted",
-      "comments": [],
+      "comments": ["Needs J for account creation"],
       "createdAt": "2026-02-15T19:06:00Z"
     },
     {
       "id": "MC-003",
       "title": "[HIGH] Alice on X - @AliceHebert Account",
       "description": "Set up and operate Alice's personal X account. Thought leadership, AI agent perspective, Apex Labs visibility.",
-      "status": "backlog",
+      "status": "blocked",
       "priority": "high",
       "owner": "alice",
       "brand": "APEX",
@@ -51,7 +51,7 @@
         { "id": "sub_004", "title": "Begin daily posting", "done": false }
       ],
       "dod": "Alice X account active with consistent posting",
-      "comments": [],
+      "comments": ["Needs J for account access"],
       "createdAt": "2026-02-15T19:06:00Z"
     },
     {
@@ -76,7 +76,7 @@
       "id": "MC-005",
       "title": "[HIGH] Daily SPM NEWS Episodes",
       "description": "Produce 1 SPM NEWS video per day. Full 5-scene production with Higgsfield. Post to X and TikTok.",
-      "status": "backlog",
+      "status": "in_progress",
       "priority": "high",
       "owner": "spm",
       "brand": "SPM",
@@ -88,8 +88,9 @@
         { "id": "sub_005", "title": "Episode 1 - Deliver", "done": false }
       ],
       "dod": "Daily SPM NEWS episode delivered",
-      "comments": [],
-      "createdAt": "2026-02-15T19:06:00Z"
+      "comments": ["Starting production now"],
+      "createdAt": "2026-02-15T19:06:00Z",
+      "processingStartedAt": "2026-02-15T19:21:00Z"
     },
     {
       "id": "MC-006",
@@ -112,7 +113,7 @@
       "id": "MC-007",
       "title": "[HIGH] Voicely Cold Outreach - 50 Emails",
       "description": "Cold email campaign for Voicely Agent. Target: real estate, legal, finance verticals.",
-      "status": "backlog",
+      "status": "in_progress",
       "priority": "high",
       "owner": "alice",
       "brand": "VOICELY",
@@ -123,14 +124,15 @@
         { "id": "sub_004", "title": "Send batch 2 (25 emails)", "done": false }
       ],
       "dod": "50 personalized cold emails sent",
-      "comments": [],
-      "createdAt": "2026-02-15T19:06:00Z"
+      "comments": ["Starting lead research"],
+      "createdAt": "2026-02-15T19:06:00Z",
+      "processingStartedAt": "2026-02-15T19:21:00Z"
     },
     {
       "id": "MC-008",
       "title": "[MEDIUM] JETR Content Backlog",
       "description": "Generate 10 branded JETR images ready for X posting. Luxury travel, private jets, destinations.",
-      "status": "backlog",
+      "status": "in_progress",
       "priority": "medium",
       "owner": "jetr",
       "brand": "JETR",
@@ -139,8 +141,9 @@
         { "id": "sub_002", "title": "5 lifestyle images (jets, luxury)", "done": false }
       ],
       "dod": "10 branded images ready",
-      "comments": [],
-      "createdAt": "2026-02-15T19:06:00Z"
+      "comments": ["Delegated to JETR sub-agent"],
+      "createdAt": "2026-02-15T19:06:00Z",
+      "processingStartedAt": "2026-02-15T19:21:00Z"
     },
     {
       "id": "MC-009",
@@ -196,7 +199,7 @@
       "id": "MC-012",
       "title": "[MEDIUM] Higgsfield Credits Top-Up",
       "description": "Top up Higgsfield credits or find alternative for video generation.",
-      "status": "backlog",
+      "status": "in_progress",
       "priority": "medium",
       "owner": "alice",
       "brand": "OPS",
@@ -206,8 +209,9 @@
         { "id": "sub_003", "title": "Top up or switch", "done": false }
       ],
       "dod": "Sufficient credits for 20+ video generations",
-      "comments": [],
-      "createdAt": "2026-02-15T19:06:00Z"
+      "comments": ["Checking balance and alternatives"],
+      "createdAt": "2026-02-15T19:06:00Z",
+      "processingStartedAt": "2026-02-15T19:21:00Z"
     },
     {
       "id": "MC-013",
@@ -228,8 +232,79 @@
       "comments": ["Completed 2026-02-15"],
       "createdAt": "2026-02-15T19:00:00Z",
       "completedAt": "2026-02-15T19:06:00Z"
+    },
+    {
+      "id": "MC-014",
+      "title": "[PROACTIVE] Competitor Intelligence - Weekly Scan",
+      "description": "Weekly scan of competitor AI agents, prediction market platforms, voice AI companies. Identify opportunities and threats.",
+      "status": "backlog",
+      "priority": "medium",
+      "owner": "markets",
+      "brand": "OPS",
+      "subtasks": [
+        { "id": "sub_001", "title": "Scan AI agent competitors (Lindy, Multion, etc)", "done": false },
+        { "id": "sub_002", "title": "Scan prediction market competitors", "done": false },
+        { "id": "sub_003", "title": "Scan voice AI competitors", "done": false },
+        { "id": "sub_004", "title": "Compile insights report", "done": false }
+      ],
+      "dod": "Weekly competitor intel report delivered",
+      "comments": ["Self-initiated - staying ahead"],
+      "createdAt": "2026-02-15T19:21:00Z"
+    },
+    {
+      "id": "MC-015",
+      "title": "[PROACTIVE] Workflow Automation Audit",
+      "description": "Review all current workflows. Identify bottlenecks, manual steps to automate, efficiency gains.",
+      "status": "backlog",
+      "priority": "low",
+      "owner": "alice",
+      "brand": "OPS",
+      "subtasks": [
+        { "id": "sub_001", "title": "Map current workflows", "done": false },
+        { "id": "sub_002", "title": "Identify bottlenecks", "done": false },
+        { "id": "sub_003", "title": "Propose automation improvements", "done": false },
+        { "id": "sub_004", "title": "Implement top 3 improvements", "done": false }
+      ],
+      "dod": "3 workflow improvements shipped",
+      "comments": ["Self-initiated - continuous improvement"],
+      "createdAt": "2026-02-15T19:21:00Z"
+    },
+    {
+      "id": "MC-016",
+      "title": "[PROACTIVE] Content Calendar - 2 Week Pipeline",
+      "description": "Build a 2-week content calendar for all brands. Never run out of content.",
+      "status": "backlog",
+      "priority": "medium",
+      "owner": "alice",
+      "brand": "ALL",
+      "subtasks": [
+        { "id": "sub_001", "title": "SPM - 14 days of content planned", "done": false },
+        { "id": "sub_002", "title": "JETR - 14 days of content planned", "done": false },
+        { "id": "sub_003", "title": "Alice - 14 days of content planned", "done": false },
+        { "id": "sub_004", "title": "Load into scheduling system", "done": false }
+      ],
+      "dod": "2-week content pipeline for all brands",
+      "comments": ["Self-initiated - always ahead"],
+      "createdAt": "2026-02-15T19:21:00Z"
+    },
+    {
+      "id": "MC-017",
+      "title": "[PROACTIVE] Revenue Tracking Dashboard",
+      "description": "Create simple dashboard to track revenue across all Apex Labs brands. Know the numbers.",
+      "status": "backlog",
+      "priority": "low",
+      "owner": "webdev",
+      "brand": "OPS",
+      "subtasks": [
+        { "id": "sub_001", "title": "Define KPIs per brand", "done": false },
+        { "id": "sub_002", "title": "Build tracking sheet/dashboard", "done": false },
+        { "id": "sub_003", "title": "Set up weekly reporting", "done": false }
+      ],
+      "dod": "Revenue dashboard live with weekly updates",
+      "comments": ["Self-initiated - know the business"],
+      "createdAt": "2026-02-15T19:21:00Z"
     }
   ],
-  "version": "1.0.0",
-  "updatedAt": "2026-02-15T19:06:00Z"
+  "version": "1.0.1",
+  "updatedAt": "2026-02-15T19:21:00Z"
 }
