@@ -1,0 +1,179 @@
+{
+  "tasks": [
+    {
+      "id": "MC-001",
+      "title": "X Account Logins",
+      "description": "Get SPM (@SimpsonsMarkets) and JETR (@flyjetr) X accounts logged in and ready for posting via browser automation.",
+      "status": "backlog",
+      "priority": "critical",
+      "owner": "alice",
+      "brand": "ALL",
+      "subtasks": [
+        { "id": "sub_001", "title": "VNC login to X for SPM account", "done": false },
+        { "id": "sub_002", "title": "VNC login to X for JETR account", "done": false },
+        { "id": "sub_003", "title": "Test post from each account", "done": false }
+      ],
+      "dod": "Both accounts can post via automation",
+      "comments": [],
+      "createdAt": "2026-02-15T19:00:00Z"
+    },
+    {
+      "id": "MC-002",
+      "title": "Daily SPM NEWS Episodes",
+      "description": "Produce 1 SPM NEWS video per day Mon-Fri. Full 5-scene production with Higgsfield.",
+      "status": "backlog",
+      "priority": "high",
+      "owner": "spm",
+      "brand": "SPM",
+      "subtasks": [
+        { "id": "sub_001", "title": "Episode 1 - Monday", "done": false },
+        { "id": "sub_002", "title": "Episode 2 - Tuesday", "done": false },
+        { "id": "sub_003", "title": "Episode 3 - Wednesday", "done": false },
+        { "id": "sub_004", "title": "Episode 4 - Thursday", "done": false }
+      ],
+      "dod": "4 SPM NEWS videos published to X",
+      "comments": [],
+      "createdAt": "2026-02-15T19:00:00Z"
+    },
+    {
+      "id": "MC-003",
+      "title": "Token Launch Website",
+      "description": "Ship tokenlaunch.xyz landing page. Clean, professional, explains $LAUNCH value prop.",
+      "status": "backlog",
+      "priority": "high",
+      "owner": "webdev",
+      "brand": "LAUNCH",
+      "subtasks": [
+        { "id": "sub_001", "title": "Design mockup", "done": false },
+        { "id": "sub_002", "title": "Build in Replit", "done": false },
+        { "id": "sub_003", "title": "Deploy to tokenlaunch.xyz", "done": false }
+      ],
+      "dod": "Site live at tokenlaunch.xyz",
+      "comments": [],
+      "createdAt": "2026-02-15T19:00:00Z"
+    },
+    {
+      "id": "MC-004",
+      "title": "Mission Control Dashboard",
+      "description": "Finish setup, connect to apexlabs.agency/alice command center.",
+      "status": "in_progress",
+      "priority": "high",
+      "owner": "alice",
+      "brand": "OPS",
+      "subtasks": [
+        { "id": "sub_001", "title": "Tailscale Funnel enabled", "done": true },
+        { "id": "sub_002", "title": "GitHub CLI authenticated", "done": true },
+        { "id": "sub_003", "title": "Create GitHub repo", "done": false },
+        { "id": "sub_004", "title": "Set up webhook", "done": false },
+        { "id": "sub_005", "title": "Enable GitHub Pages", "done": false }
+      ],
+      "dod": "Dashboard accessible and webhooks firing",
+      "comments": [],
+      "createdAt": "2026-02-15T19:00:00Z",
+      "processingStartedAt": "2026-02-15T19:00:00Z"
+    },
+    {
+      "id": "MC-005",
+      "title": "JETR Content Backlog",
+      "description": "Generate 10 branded JETR images ready for X posting. Luxury travel, private jets, destinations.",
+      "status": "backlog",
+      "priority": "medium",
+      "owner": "jetr",
+      "brand": "JETR",
+      "subtasks": [
+        { "id": "sub_001", "title": "5 destination images", "done": false },
+        { "id": "sub_002", "title": "5 lifestyle images", "done": false }
+      ],
+      "dod": "10 branded images in /agents/jetr/content/",
+      "comments": [],
+      "createdAt": "2026-02-15T19:00:00Z"
+    },
+    {
+      "id": "MC-006",
+      "title": "GLD Card Landing Page",
+      "description": "MVP landing page for gldcard.vip. Premium card product positioning.",
+      "status": "backlog",
+      "priority": "medium",
+      "owner": "webdev",
+      "brand": "GLD",
+      "subtasks": [
+        { "id": "sub_001", "title": "Design", "done": false },
+        { "id": "sub_002", "title": "Build", "done": false },
+        { "id": "sub_003", "title": "Deploy", "done": false }
+      ],
+      "dod": "Site live at gldcard.vip",
+      "comments": [],
+      "createdAt": "2026-02-15T19:00:00Z"
+    },
+    {
+      "id": "MC-007",
+      "title": "Voicely Cold Outreach",
+      "description": "50 cold emails to real estate, legal, finance prospects for Voicely Agent.",
+      "status": "backlog",
+      "priority": "high",
+      "owner": "alice",
+      "brand": "VOICELY",
+      "subtasks": [
+        { "id": "sub_001", "title": "Create 5 email templates", "done": false },
+        { "id": "sub_002", "title": "Build lead list (50 targets)", "done": false },
+        { "id": "sub_003", "title": "Send batch 1 (25 emails)", "done": false },
+        { "id": "sub_004", "title": "Send batch 2 (25 emails)", "done": false }
+      ],
+      "dod": "50 personalized cold emails sent",
+      "comments": [],
+      "createdAt": "2026-02-15T19:00:00Z"
+    },
+    {
+      "id": "MC-008",
+      "title": "Voicely Demo Video",
+      "description": "60-second explainer video for Voicely outreach. Show the voice AI in action.",
+      "status": "backlog",
+      "priority": "medium",
+      "owner": "creative",
+      "brand": "VOICELY",
+      "subtasks": [
+        { "id": "sub_001", "title": "Script", "done": false },
+        { "id": "sub_002", "title": "Record demo", "done": false },
+        { "id": "sub_003", "title": "Edit and brand", "done": false }
+      ],
+      "dod": "60s video ready for outreach",
+      "comments": [],
+      "createdAt": "2026-02-15T19:00:00Z"
+    },
+    {
+      "id": "MC-009",
+      "title": "Bankr Wallet Setup",
+      "description": "Get trading wallet operational for crypto ops.",
+      "status": "backlog",
+      "priority": "medium",
+      "owner": "alice",
+      "brand": "OPS",
+      "subtasks": [
+        { "id": "sub_001", "title": "Connect wallet to Bankr", "done": false },
+        { "id": "sub_002", "title": "Test trade", "done": false }
+      ],
+      "dod": "Can execute trades via Bankr skill",
+      "comments": [],
+      "createdAt": "2026-02-15T19:00:00Z"
+    },
+    {
+      "id": "MC-010",
+      "title": "Higgsfield Credits",
+      "description": "Top up Higgsfield credits or find alternative for video generation.",
+      "status": "backlog",
+      "priority": "medium",
+      "owner": "alice",
+      "brand": "OPS",
+      "subtasks": [
+        { "id": "sub_001", "title": "Check current balance", "done": false },
+        { "id": "sub_002", "title": "Research pricing/alternatives", "done": false },
+        { "id": "sub_003", "title": "Top up or switch", "done": false }
+      ],
+      "dod": "Sufficient credits for 20+ video generations",
+      "comments": [],
+      "createdAt": "2026-02-15T19:00:00Z"
+    }
+  ],
+  "version": "1.0.0",
+  "updatedAt": "2026-02-15T19:00:00Z"
+}
