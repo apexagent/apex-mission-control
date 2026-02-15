@@ -2,42 +2,98 @@
   "tasks": [
     {
       "id": "MC-001",
-      "title": "X Account Logins",
-      "description": "Get SPM (@SimpsonsMarkets) and JETR (@flyjetr) X accounts logged in and ready for posting via browser automation.",
-      "status": "backlog",
+      "title": "[CRITICAL] X Account Logins - SPM & JETR",
+      "description": "Get SPM (@SimpsonsMarkets) and JETR (@flyjetr) X accounts logged in. Waiting for J to provide access when at computer.",
+      "status": "blocked",
       "priority": "critical",
       "owner": "alice",
       "brand": "ALL",
       "subtasks": [
-        { "id": "sub_001", "title": "VNC login to X for SPM account", "done": false },
-        { "id": "sub_002", "title": "VNC login to X for JETR account", "done": false },
-        { "id": "sub_003", "title": "Test post from each account", "done": false }
+        { "id": "sub_001", "title": "J provides X credentials/access", "done": false },
+        { "id": "sub_002", "title": "VNC login to X for SPM", "done": false },
+        { "id": "sub_003", "title": "VNC login to X for JETR", "done": false },
+        { "id": "sub_004", "title": "Test post from each account", "done": false }
       ],
       "dod": "Both accounts can post via automation",
-      "comments": [],
-      "createdAt": "2026-02-15T19:00:00Z"
+      "comments": ["Waiting for J to get to computer"],
+      "createdAt": "2026-02-15T19:06:00Z"
     },
     {
       "id": "MC-002",
-      "title": "Daily SPM NEWS Episodes",
-      "description": "Produce 1 SPM NEWS video per day Mon-Fri. Full 5-scene production with Higgsfield.",
+      "title": "[HIGH] SPM TikTok Account Setup",
+      "description": "Create and configure SPM Markets TikTok account. Repurpose SPM NEWS content for short-form vertical video.",
       "status": "backlog",
       "priority": "high",
       "owner": "spm",
       "brand": "SPM",
       "subtasks": [
-        { "id": "sub_001", "title": "Episode 1 - Monday", "done": false },
-        { "id": "sub_002", "title": "Episode 2 - Tuesday", "done": false },
-        { "id": "sub_003", "title": "Episode 3 - Wednesday", "done": false },
-        { "id": "sub_004", "title": "Episode 4 - Thursday", "done": false }
+        { "id": "sub_001", "title": "Create TikTok account @SPMMarkets or similar", "done": false },
+        { "id": "sub_002", "title": "Set up profile (bio, avatar, links)", "done": false },
+        { "id": "sub_003", "title": "Repurpose first SPM NEWS episode for TikTok format", "done": false },
+        { "id": "sub_004", "title": "Post first TikTok", "done": false }
       ],
-      "dod": "4 SPM NEWS videos published to X",
+      "dod": "TikTok account live with first video posted",
       "comments": [],
-      "createdAt": "2026-02-15T19:00:00Z"
+      "createdAt": "2026-02-15T19:06:00Z"
     },
     {
       "id": "MC-003",
-      "title": "Token Launch Website",
+      "title": "[HIGH] Alice on X - @AliceHebert Account",
+      "description": "Set up and operate Alice's personal X account. Thought leadership, AI agent perspective, Apex Labs visibility.",
+      "status": "backlog",
+      "priority": "high",
+      "owner": "alice",
+      "brand": "APEX",
+      "subtasks": [
+        { "id": "sub_001", "title": "Create/access @AliceHebert X account", "done": false },
+        { "id": "sub_002", "title": "Set up profile (AI CEO Operator of Apex Labs)", "done": false },
+        { "id": "sub_003", "title": "Draft first 10 tweets (voice, perspective, value)", "done": false },
+        { "id": "sub_004", "title": "Begin daily posting", "done": false }
+      ],
+      "dod": "Alice X account active with consistent posting",
+      "comments": [],
+      "createdAt": "2026-02-15T19:06:00Z"
+    },
+    {
+      "id": "MC-004",
+      "title": "[HIGH] Alice LinkedIn Posts",
+      "description": "LinkedIn content for Alice Hebert. Professional AI agent thought leadership. Target: founders, VCs, tech leaders.",
+      "status": "in_progress",
+      "priority": "high",
+      "owner": "alice",
+      "brand": "APEX",
+      "subtasks": [
+        { "id": "sub_001", "title": "Draft 5 LinkedIn posts", "done": false },
+        { "id": "sub_002", "title": "Review tone/positioning", "done": false },
+        { "id": "sub_003", "title": "Schedule/post first batch", "done": false }
+      ],
+      "dod": "5 LinkedIn posts ready for Alice Hebert profile",
+      "comments": [],
+      "createdAt": "2026-02-15T19:06:00Z",
+      "processingStartedAt": "2026-02-15T19:06:00Z"
+    },
+    {
+      "id": "MC-005",
+      "title": "[HIGH] Daily SPM NEWS Episodes",
+      "description": "Produce 1 SPM NEWS video per day. Full 5-scene production with Higgsfield. Post to X and TikTok.",
+      "status": "backlog",
+      "priority": "high",
+      "owner": "spm",
+      "brand": "SPM",
+      "subtasks": [
+        { "id": "sub_001", "title": "Episode 1 - Research trending Polymarket topics", "done": false },
+        { "id": "sub_002", "title": "Episode 1 - Script + Storyboard", "done": false },
+        { "id": "sub_003", "title": "Episode 1 - Generate images", "done": false },
+        { "id": "sub_004", "title": "Episode 1 - Generate video", "done": false },
+        { "id": "sub_005", "title": "Episode 1 - Deliver", "done": false }
+      ],
+      "dod": "Daily SPM NEWS episode delivered",
+      "comments": [],
+      "createdAt": "2026-02-15T19:06:00Z"
+    },
+    {
+      "id": "MC-006",
+      "title": "[HIGH] Token Launch Website",
       "description": "Ship tokenlaunch.xyz landing page. Clean, professional, explains $LAUNCH value prop.",
       "status": "backlog",
       "priority": "high",
@@ -50,65 +106,12 @@
       ],
       "dod": "Site live at tokenlaunch.xyz",
       "comments": [],
-      "createdAt": "2026-02-15T19:00:00Z"
-    },
-    {
-      "id": "MC-004",
-      "title": "Mission Control Dashboard",
-      "description": "Finish setup, connect to apexlabs.agency/alice command center.",
-      "status": "in_progress",
-      "priority": "high",
-      "owner": "alice",
-      "brand": "OPS",
-      "subtasks": [
-        { "id": "sub_001", "title": "Tailscale Funnel enabled", "done": true },
-        { "id": "sub_002", "title": "GitHub CLI authenticated", "done": true },
-        { "id": "sub_003", "title": "Create GitHub repo", "done": false },
-        { "id": "sub_004", "title": "Set up webhook", "done": false },
-        { "id": "sub_005", "title": "Enable GitHub Pages", "done": false }
-      ],
-      "dod": "Dashboard accessible and webhooks firing",
-      "comments": [],
-      "createdAt": "2026-02-15T19:00:00Z",
-      "processingStartedAt": "2026-02-15T19:00:00Z"
-    },
-    {
-      "id": "MC-005",
-      "title": "JETR Content Backlog",
-      "description": "Generate 10 branded JETR images ready for X posting. Luxury travel, private jets, destinations.",
-      "status": "backlog",
-      "priority": "medium",
-      "owner": "jetr",
-      "brand": "JETR",
-      "subtasks": [
-        { "id": "sub_001", "title": "5 destination images", "done": false },
-        { "id": "sub_002", "title": "5 lifestyle images", "done": false }
-      ],
-      "dod": "10 branded images in /agents/jetr/content/",
-      "comments": [],
-      "createdAt": "2026-02-15T19:00:00Z"
-    },
-    {
-      "id": "MC-006",
-      "title": "GLD Card Landing Page",
-      "description": "MVP landing page for gldcard.vip. Premium card product positioning.",
-      "status": "backlog",
-      "priority": "medium",
-      "owner": "webdev",
-      "brand": "GLD",
-      "subtasks": [
-        { "id": "sub_001", "title": "Design", "done": false },
-        { "id": "sub_002", "title": "Build", "done": false },
-        { "id": "sub_003", "title": "Deploy", "done": false }
-      ],
-      "dod": "Site live at gldcard.vip",
-      "comments": [],
-      "createdAt": "2026-02-15T19:00:00Z"
+      "createdAt": "2026-02-15T19:06:00Z"
     },
     {
       "id": "MC-007",
-      "title": "Voicely Cold Outreach",
-      "description": "50 cold emails to real estate, legal, finance prospects for Voicely Agent.",
+      "title": "[HIGH] Voicely Cold Outreach - 50 Emails",
+      "description": "Cold email campaign for Voicely Agent. Target: real estate, legal, finance verticals.",
       "status": "backlog",
       "priority": "high",
       "owner": "alice",
@@ -121,12 +124,45 @@
       ],
       "dod": "50 personalized cold emails sent",
       "comments": [],
-      "createdAt": "2026-02-15T19:00:00Z"
+      "createdAt": "2026-02-15T19:06:00Z"
     },
     {
       "id": "MC-008",
-      "title": "Voicely Demo Video",
-      "description": "60-second explainer video for Voicely outreach. Show the voice AI in action.",
+      "title": "[MEDIUM] JETR Content Backlog",
+      "description": "Generate 10 branded JETR images ready for X posting. Luxury travel, private jets, destinations.",
+      "status": "backlog",
+      "priority": "medium",
+      "owner": "jetr",
+      "brand": "JETR",
+      "subtasks": [
+        { "id": "sub_001", "title": "5 destination images (Maldives, Monaco, etc)", "done": false },
+        { "id": "sub_002", "title": "5 lifestyle images (jets, luxury)", "done": false }
+      ],
+      "dod": "10 branded images ready",
+      "comments": [],
+      "createdAt": "2026-02-15T19:06:00Z"
+    },
+    {
+      "id": "MC-009",
+      "title": "[MEDIUM] GLD Card Landing Page",
+      "description": "MVP landing page for gldcard.vip. Premium card product positioning.",
+      "status": "backlog",
+      "priority": "medium",
+      "owner": "webdev",
+      "brand": "GLD",
+      "subtasks": [
+        { "id": "sub_001", "title": "Design", "done": false },
+        { "id": "sub_002", "title": "Build", "done": false },
+        { "id": "sub_003", "title": "Deploy", "done": false }
+      ],
+      "dod": "Site live at gldcard.vip",
+      "comments": [],
+      "createdAt": "2026-02-15T19:06:00Z"
+    },
+    {
+      "id": "MC-010",
+      "title": "[MEDIUM] Voicely Demo Video",
+      "description": "60-second explainer video for Voicely outreach.",
       "status": "backlog",
       "priority": "medium",
       "owner": "creative",
@@ -138,11 +174,11 @@
       ],
       "dod": "60s video ready for outreach",
       "comments": [],
-      "createdAt": "2026-02-15T19:00:00Z"
+      "createdAt": "2026-02-15T19:06:00Z"
     },
     {
-      "id": "MC-009",
-      "title": "Bankr Wallet Setup",
+      "id": "MC-011",
+      "title": "[MEDIUM] Bankr Wallet Setup",
       "description": "Get trading wallet operational for crypto ops.",
       "status": "backlog",
       "priority": "medium",
@@ -154,11 +190,11 @@
       ],
       "dod": "Can execute trades via Bankr skill",
       "comments": [],
-      "createdAt": "2026-02-15T19:00:00Z"
+      "createdAt": "2026-02-15T19:06:00Z"
     },
     {
-      "id": "MC-010",
-      "title": "Higgsfield Credits",
+      "id": "MC-012",
+      "title": "[MEDIUM] Higgsfield Credits Top-Up",
       "description": "Top up Higgsfield credits or find alternative for video generation.",
       "status": "backlog",
       "priority": "medium",
@@ -171,9 +207,29 @@
       ],
       "dod": "Sufficient credits for 20+ video generations",
       "comments": [],
-      "createdAt": "2026-02-15T19:00:00Z"
+      "createdAt": "2026-02-15T19:06:00Z"
+    },
+    {
+      "id": "MC-013",
+      "title": "[DONE] Mission Control Setup",
+      "description": "Deploy Mission Control dashboard with Tailscale, GitHub, webhooks.",
+      "status": "done",
+      "priority": "high",
+      "owner": "alice",
+      "brand": "OPS",
+      "subtasks": [
+        { "id": "sub_001", "title": "Install Tailscale", "done": true },
+        { "id": "sub_002", "title": "Enable Funnel", "done": true },
+        { "id": "sub_003", "title": "GitHub CLI auth", "done": true },
+        { "id": "sub_004", "title": "Create repo + deploy Pages", "done": true },
+        { "id": "sub_005", "title": "Configure webhook", "done": true }
+      ],
+      "dod": "Dashboard live, webhooks firing",
+      "comments": ["Completed 2026-02-15"],
+      "createdAt": "2026-02-15T19:00:00Z",
+      "completedAt": "2026-02-15T19:06:00Z"
     }
   ],
   "version": "1.0.0",
-  "updatedAt": "2026-02-15T19:00:00Z"
+  "updatedAt": "2026-02-15T19:06:00Z"
 }
