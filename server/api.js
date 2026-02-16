@@ -74,6 +74,16 @@ app.get('/api/tasks.json', (req, res) => {
   }
 });
 
+// Neural feedback endpoint (new)
+app.get('/api/neural.json', (req, res) => {
+  const data = readJsonFile('neural.json');
+  if (data) {
+    res.json(data);
+  } else {
+    res.status(500).json({ error: 'Failed to read neural.json' });
+  }
+});
+
 // Health check
 app.get('/health', (req, res) => {
   res.json({ 
