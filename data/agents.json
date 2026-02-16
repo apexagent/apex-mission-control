@@ -1,0 +1,71 @@
+{
+  "agents": [
+    {
+      "id": "spm",
+      "name": "SPM Agent",
+      "emoji": "📊",
+      "status": "active",
+      "currentTask": "Episode Research",
+      "lastActivity": "2026-02-16T16:39:00Z",
+      "tasksCompleted": 1,
+      "brand": "SPM"
+    },
+    {
+      "id": "jetr",
+      "name": "JETR Agent",
+      "emoji": "✈️",
+      "status": "active",
+      "currentTask": "Content Planning",
+      "lastActivity": "2026-02-16T16:39:00Z",
+      "tasksCompleted": 1,
+      "brand": "JETR"
+    },
+    {
+      "id": "markets",
+      "name": "Markets Agent",
+      "emoji": "💰",
+      "status": "idle",
+      "currentTask": null,
+      "lastActivity": "2026-02-16T16:39:00Z",
+      "tasksCompleted": 1,
+      "brand": "OPS"
+    },
+    {
+      "id": "xspecialist",
+      "name": "X Specialist",
+      "emoji": "🐦",
+      "status": "idle",
+      "currentTask": null,
+      "lastActivity": "2026-02-16T16:41:00Z",
+      "tasksCompleted": 1,
+      "brand": "OPS"
+    },
+    {
+      "id": "creative",
+      "name": "Creative Agent",
+      "emoji": "🎨",
+      "status": "idle",
+      "currentTask": null,
+      "lastActivity": null,
+      "tasksCompleted": 0,
+      "brand": "OPS"
+    },
+    {
+      "id": "webdev",
+      "name": "WebDev Agent",
+      "emoji": "💻",
+      "status": "idle",
+      "currentTask": null,
+      "lastActivity": null,
+      "tasksCompleted": 0,
+      "brand": "OPS"
+    }
+  ],
+  "summary": {
+    "total": 6,
+    "active": 2,
+    "idle": 4,
+    "error": 0
+  },
+  "updatedAt": "2026-02-16T16:42:00Z"
+}

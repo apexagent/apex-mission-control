@@ -1,0 +1,34 @@
+{
+  "productions": [
+    {
+      "id": "spm-2026-02-17",
+      "brand": "SPM",
+      "title": "SPM NEWS — Episode 2026-02-17",
+      "stages": [
+        {"name": "Research", "status": "done"},
+        {"name": "Script", "status": "done"},
+        {"name": "Images", "status": "pending"},
+        {"name": "Video", "status": "pending"},
+        {"name": "Post", "status": "pending"}
+      ],
+      "topics": ["Iran Strikes", "Fed Decision", "AI Model Race"],
+      "path": "/agents/spm/productions/episode-2026-02-17/",
+      "updatedAt": "2026-02-16T16:39:00Z"
+    },
+    {
+      "id": "jetr-week-2026-02-17",
+      "brand": "JETR",
+      "title": "JETR — Week of Feb 17",
+      "stages": [
+        {"name": "Plan", "status": "done"},
+        {"name": "Maldives", "status": "pending"},
+        {"name": "St Barts", "status": "pending"},
+        {"name": "Aspen", "status": "pending"}
+      ],
+      "topics": ["Maldives", "St. Barts", "Aspen"],
+      "path": "/agents/jetr/productions/week-2026-02-17/",
+      "updatedAt": "2026-02-16T16:39:00Z"
+    }
+  ],
+  "updatedAt": "2026-02-16T16:42:00Z"
+}

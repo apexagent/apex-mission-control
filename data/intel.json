@@ -1,0 +1,23 @@
+{
+  "markets": {
+    "btc": {"price": 67640, "change24h": -1.9},
+    "eth": {"price": 1964, "change24h": -2.0},
+    "sol": {"price": 83.50, "change24h": -4.3}
+  },
+  "polymarket": [
+    {"title": "US Strikes Iran by Feb 28", "odds": 17, "volume": "$267M"},
+    {"title": "Fed Rate Cut March", "odds": 7, "volume": "$126M"},
+    {"title": "Anthropic Best AI Model", "odds": 63, "volume": "$12M"}
+  ],
+  "xTrends": [
+    {"topic": "#Polymarket", "status": "🔥 Hot"},
+    {"topic": "#AIAgents", "status": "📈 Trending"},
+    {"topic": "48hr builds", "status": "🚀 Viral"}
+  ],
+  "alerts": [
+    {"type": "warning", "message": "McGlone: BTC could hit $10K on recession"},
+    {"type": "info", "message": "ETH absorbed $540M sell wave"},
+    {"type": "info", "message": "Fed minutes + PCE this week"}
+  ],
+  "updatedAt": "2026-02-16T16:42:00Z"
+}
