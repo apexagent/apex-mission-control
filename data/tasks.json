@@ -20,8 +20,8 @@
     },
     {
       "id": "MC-002",
-      "title": "[CRITICAL] Replit Automation",
-      "description": "Get Alice working inside Replit for fast dev iterations on all projects.",
+      "title": "[CRITICAL] Replit → GitHub Sync",
+      "description": "Sync all Replit projects to GitHub repos via Claude Computer Use.",
       "status": "in_progress",
       "priority": "critical",
       "owner": "alice",
@@ -29,14 +29,15 @@
       "subtasks": [
         {"id": "sub_001", "title": "VNC Chrome stable access", "done": true},
         {"id": "sub_002", "title": "Replit login working", "done": true},
-        {"id": "sub_003", "title": "Navigate to projects reliably", "done": false},
-        {"id": "sub_004", "title": "Edit code via automation", "done": false},
-        {"id": "sub_005", "title": "Deploy changes", "done": false}
+        {"id": "sub_003", "title": "ApexLabsOS → apex-labs", "done": true},
+        {"id": "sub_004", "title": "SPM Markets → spm-markets-website", "done": true},
+        {"id": "sub_005", "title": "FlyJetr → flyjetr-website", "done": false},
+        {"id": "sub_006", "title": "Apex Labs Website → apex-labs-website", "done": false}
       ],
-      "dod": "Alice can autonomously edit and deploy Replit projects",
-      "comments": ["VNC running, login works, need to fix navigation"],
+      "dod": "All 4 projects synced to GitHub with code",
+      "comments": ["Dual-agent with Claude Computer Use = GAME CHANGER", "2/4 complete as of 11:42 UTC"],
       "createdAt": "2026-02-16T01:54:00Z",
-      "processingStartedAt": "2026-02-16T01:54:00Z"
+      "processingStartedAt": "2026-02-16T10:00:00Z"
     },
     {
       "id": "MC-003",
@@ -118,6 +119,45 @@
       "processingStartedAt": "2026-02-16T01:54:00Z"
     },
     {
+      "id": "MC-011",
+      "title": "[DONE] alice@apexlabs.agency Email Setup",
+      "description": "Set up Alice's official email via AgentMail.",
+      "status": "done",
+      "priority": "high",
+      "owner": "alice",
+      "brand": "APEX",
+      "subtasks": [
+        {"id": "sub_001", "title": "Create AgentMail inbox", "done": true},
+        {"id": "sub_002", "title": "Document API in skill", "done": true},
+        {"id": "sub_003", "title": "Test outbound email", "done": true},
+        {"id": "sub_004", "title": "Add MX record for inbound", "done": false}
+      ],
+      "dod": "Alice can send/receive email",
+      "comments": ["Outbound works, inbound blocked by Replit DNS - support ticket sent"],
+      "createdAt": "2026-02-16T03:30:00Z",
+      "completedAt": "2026-02-16T04:30:00Z"
+    },
+    {
+      "id": "MC-012",
+      "title": "[IN PROGRESS] SPM NEWS Episode 2026-02-16",
+      "description": "Produce SPM NEWS episode covering Trump impeachment, Elon trillionaire, Obama aliens.",
+      "status": "in_progress",
+      "priority": "high",
+      "owner": "spm",
+      "brand": "SPM",
+      "subtasks": [
+        {"id": "sub_001", "title": "Research news sources", "done": true},
+        {"id": "sub_002", "title": "Write script", "done": true},
+        {"id": "sub_003", "title": "Generate images", "done": false},
+        {"id": "sub_004", "title": "Generate videos", "done": false},
+        {"id": "sub_005", "title": "Assemble final", "done": false}
+      ],
+      "dod": "Episode ready for posting",
+      "comments": ["Script at /root/.openclaw/agents/spm/productions/episode-2026-02-16/"],
+      "createdAt": "2026-02-16T04:30:00Z",
+      "processingStartedAt": "2026-02-16T04:40:00Z"
+    },
+    {
       "id": "MC-007",
       "title": "[HIGH] Apex Website Quick Fixes",
       "description": "Fix inaccuracies and add CTAs to apexlabs.agency",
@@ -190,7 +230,7 @@
     }
   ],
   "version": "2.0.0",
-  "updatedAt": "2026-02-16T01:54:00Z",
+  "updatedAt": "2026-02-16T11:45:00Z",
   "focus": {
     "current": ["Apex infrastructure", "Replit automation", "SPM/JETR content ops", "Mission Control → /alice"],
     "paused": ["Voicely", "GLD Card"],
