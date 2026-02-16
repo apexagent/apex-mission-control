@@ -19,10 +19,211 @@
       "createdAt": "2026-02-15T19:06:00Z"
     },
     {
-      "id": "MC-013",
-      "title": "[CRITICAL] Full Agent Orchestration Live",
-      "description": "All cron jobs running, sub-agents executing, daily reports flowing. This is the operating system.",
+      "id": "MC-015",
+      "title": "[CRITICAL] Self-Evolving Feedback Loop",
+      "description": "Build autonomous improvement system: track performance, identify bottlenecks, auto-generate improvement tasks.",
       "status": "in_progress",
+      "priority": "critical",
+      "owner": "alice",
+      "brand": "OPS",
+      "subtasks": [
+        {"id": "sub_001", "title": "Define metrics to track", "done": true},
+        {"id": "sub_002", "title": "Create neural.json data structure", "done": true},
+        {"id": "sub_003", "title": "Implement learning capture on task completion", "done": false},
+        {"id": "sub_004", "title": "Auto-generate improvement tasks", "done": false},
+        {"id": "sub_005", "title": "Weekly self-assessment cron", "done": false}
+      ],
+      "dod": "System learns from every action and proposes improvements",
+      "createdAt": "2026-02-16T20:00:00Z",
+      "processingStartedAt": "2026-02-16T20:00:00Z"
+    },
+    {
+      "id": "MC-016",
+      "title": "[CRITICAL] Command Center V2 - Elite Dashboard",
+      "description": "JARVIS/Bloomberg Terminal style dashboard with agent swarm, live intel, content pipeline.",
+      "status": "in_progress",
+      "priority": "critical",
+      "owner": "webdev",
+      "brand": "APEX",
+      "subtasks": [
+        {"id": "sub_001", "title": "Design spec complete", "done": true},
+        {"id": "sub_002", "title": "Agent avatar prompts", "done": true},
+        {"id": "sub_003", "title": "Generate agent avatars via Higgsfield", "done": false},
+        {"id": "sub_004", "title": "Build Agent Swarm component", "done": false},
+        {"id": "sub_005", "title": "Build Live Intel panel", "done": false},
+        {"id": "sub_006", "title": "Build Content Pipeline view", "done": false},
+        {"id": "sub_007", "title": "Deploy to Replit", "done": false}
+      ],
+      "dod": "Real-time elite dashboard at apexlabs.agency/alice",
+      "createdAt": "2026-02-16T18:30:00Z",
+      "processingStartedAt": "2026-02-16T18:30:00Z"
+    },
+    {
+      "id": "MC-017",
+      "title": "[HIGH] SPM NEWS Episode #1 - Full Production",
+      "description": "Complete end-to-end SPM NEWS episode: script, images, videos, assembly.",
+      "status": "backlog",
+      "priority": "high",
+      "owner": "spm",
+      "brand": "SPM",
+      "subtasks": [
+        {"id": "sub_001", "title": "Research top 3 Polymarket stories", "done": true},
+        {"id": "sub_002", "title": "Write 5-scene script", "done": false},
+        {"id": "sub_003", "title": "Generate 5 anchor images", "done": false},
+        {"id": "sub_004", "title": "Generate 5 videos", "done": false},
+        {"id": "sub_005", "title": "Add TTS voiceover", "done": false},
+        {"id": "sub_006", "title": "Assemble in CapCut", "done": false},
+        {"id": "sub_007", "title": "Post to @spmmarkets", "done": false}
+      ],
+      "dod": "Published SPM NEWS video on channel",
+      "createdAt": "2026-02-16T20:00:00Z"
+    },
+    {
+      "id": "MC-018",
+      "title": "[HIGH] JETR Content Calendar - Feb Week 3",
+      "description": "Plan and produce JETR content for week of Feb 17-23.",
+      "status": "backlog",
+      "priority": "high",
+      "owner": "jetr",
+      "brand": "JETR",
+      "subtasks": [
+        {"id": "sub_001", "title": "Monday: Maldives content", "done": false},
+        {"id": "sub_002", "title": "Wednesday: St. Barts content", "done": false},
+        {"id": "sub_003", "title": "Friday: Aspen content", "done": false},
+        {"id": "sub_004", "title": "Generate all images", "done": false},
+        {"id": "sub_005", "title": "Brand and deliver to @jetrmedia", "done": false}
+      ],
+      "dod": "6+ branded JETR images in channel",
+      "createdAt": "2026-02-16T20:00:00Z"
+    },
+    {
+      "id": "MC-019",
+      "title": "[HIGH] Generate Agent Avatars",
+      "description": "Create hyper-realistic anime avatars for all 7 agents using Higgsfield.",
+      "status": "backlog",
+      "priority": "high",
+      "owner": "creative",
+      "brand": "APEX",
+      "subtasks": [
+        {"id": "sub_001", "title": "Alice avatar", "done": false},
+        {"id": "sub_002", "title": "SPM avatar", "done": false},
+        {"id": "sub_003", "title": "JETR avatar", "done": false},
+        {"id": "sub_004", "title": "Markets avatar", "done": false},
+        {"id": "sub_005", "title": "X Specialist avatar", "done": false},
+        {"id": "sub_006", "title": "Creative avatar", "done": false},
+        {"id": "sub_007", "title": "WebDev avatar", "done": false}
+      ],
+      "dod": "7 avatar images saved for Command Center",
+      "createdAt": "2026-02-16T20:00:00Z"
+    },
+    {
+      "id": "MC-020",
+      "title": "[HIGH] Voicely Agent Lead Gen System",
+      "description": "Automated pipeline: scrape prospects → enrich → personalized outreach → Calendly booking.",
+      "status": "backlog",
+      "priority": "high",
+      "owner": "alice",
+      "brand": "VOICELY",
+      "subtasks": [
+        {"id": "sub_001", "title": "Define ICP (real estate, legal, finance)", "done": false},
+        {"id": "sub_002", "title": "Build prospect scraper", "done": false},
+        {"id": "sub_003", "title": "Create email templates", "done": true},
+        {"id": "sub_004", "title": "Connect Calendly for demo booking", "done": false},
+        {"id": "sub_005", "title": "Launch campaign", "done": false}
+      ],
+      "dod": "Automated leads flowing into Calendly",
+      "createdAt": "2026-02-16T20:00:00Z"
+    },
+    {
+      "id": "MC-021",
+      "title": "[MEDIUM] Polymarket Trading Strategy",
+      "description": "Develop systematic approach to prediction market trading with BART integration.",
+      "status": "backlog",
+      "priority": "medium",
+      "owner": "markets",
+      "brand": "SPM",
+      "subtasks": [
+        {"id": "sub_001", "title": "Define entry/exit criteria", "done": false},
+        {"id": "sub_002", "title": "Identify arbitrage opportunities", "done": false},
+        {"id": "sub_003", "title": "Connect BART signals", "done": false},
+        {"id": "sub_004", "title": "Paper trade for 1 week", "done": false}
+      ],
+      "dod": "Documented strategy with backtested results",
+      "createdAt": "2026-02-16T20:00:00Z"
+    },
+    {
+      "id": "MC-022",
+      "title": "[MEDIUM] Token Launch Website MVP",
+      "description": "Ship tokenlaunch.xyz landing page explaining the launchpad.",
+      "status": "backlog",
+      "priority": "medium",
+      "owner": "webdev",
+      "brand": "LAUNCH",
+      "subtasks": [
+        {"id": "sub_001", "title": "Design landing page", "done": false},
+        {"id": "sub_002", "title": "Build in Replit", "done": false},
+        {"id": "sub_003", "title": "Connect domain", "done": false},
+        {"id": "sub_004", "title": "Add waitlist signup", "done": false}
+      ],
+      "dod": "Live landing page at tokenlaunch.xyz",
+      "createdAt": "2026-02-15T19:06:00Z"
+    },
+    {
+      "id": "MC-023",
+      "title": "[MEDIUM] GLD Card Landing Page",
+      "description": "Ship gldcard.vip landing page with waitlist.",
+      "status": "backlog",
+      "priority": "medium",
+      "owner": "webdev",
+      "brand": "GLD",
+      "subtasks": [
+        {"id": "sub_001", "title": "Design luxury card aesthetic", "done": false},
+        {"id": "sub_002", "title": "Build in Replit", "done": false},
+        {"id": "sub_003", "title": "Connect domain", "done": false},
+        {"id": "sub_004", "title": "Add waitlist", "done": false}
+      ],
+      "dod": "Live landing page at gldcard.vip",
+      "createdAt": "2026-02-16T20:00:00Z"
+    },
+    {
+      "id": "MC-024",
+      "title": "[MEDIUM] Automated Market Reports",
+      "description": "Generate and send market intelligence reports automatically.",
+      "status": "backlog",
+      "priority": "medium",
+      "owner": "markets",
+      "brand": "OPS",
+      "subtasks": [
+        {"id": "sub_001", "title": "Define report format", "done": false},
+        {"id": "sub_002", "title": "Build data aggregation", "done": false},
+        {"id": "sub_003", "title": "Create HTML email template", "done": false},
+        {"id": "sub_004", "title": "Schedule daily send", "done": false}
+      ],
+      "dod": "Daily market report to j@apexlabs.agency",
+      "createdAt": "2026-02-16T20:00:00Z"
+    },
+    {
+      "id": "MC-025",
+      "title": "[MEDIUM] X Trend Detection Automation",
+      "description": "Auto-detect trending topics and suggest content angles.",
+      "status": "backlog",
+      "priority": "medium",
+      "owner": "xspecialist",
+      "brand": "ALL",
+      "subtasks": [
+        {"id": "sub_001", "title": "Monitor crypto/predictions hashtags", "done": false},
+        {"id": "sub_002", "title": "Identify viral patterns", "done": false},
+        {"id": "sub_003", "title": "Generate content suggestions", "done": false},
+        {"id": "sub_004", "title": "Alert when opportunity detected", "done": false}
+      ],
+      "dod": "Automated trend alerts with content suggestions",
+      "createdAt": "2026-02-16T20:00:00Z"
+    },
+    {
+      "id": "MC-013",
+      "title": "[DONE] Full Agent Orchestration Live",
+      "description": "All cron jobs running, sub-agents executing, daily reports flowing. This is the operating system.",
+      "status": "done",
       "priority": "critical",
       "owner": "alice",
       "brand": "OPS",
@@ -34,12 +235,11 @@
         {"id": "sub_005", "title": "Markets Intel (3x daily)", "done": true},
         {"id": "sub_006", "title": "X Trend Detection (2x daily)", "done": true},
         {"id": "sub_007", "title": "Email Inbox Check (every 2h)", "done": true},
-        {"id": "sub_008", "title": "Test all agents execute", "done": false}
+        {"id": "sub_008", "title": "Test all agents execute", "done": true}
       ],
       "dod": "Autonomous ops running 24/7 with daily reporting",
-      "comments": ["All crons configured 2026-02-16 16:30 UTC"],
-      "createdAt": "2026-02-16T16:30:00Z",
-      "processingStartedAt": "2026-02-16T16:30:00Z"
+      "completedAt": "2026-02-16T20:00:00Z",
+      "createdAt": "2026-02-16T16:30:00Z"
     },
     {
       "id": "MC-014",
@@ -90,7 +290,7 @@
       "brand": "SPM",
       "subtasks": [
         {"id": "sub_001", "title": "Research → Script workflow", "done": true},
-        {"id": "sub_002", "title": "Image generation pipeline", "done": false},
+        {"id": "sub_002", "title": "Image generation pipeline", "done": true},
         {"id": "sub_003", "title": "Video generation pipeline", "done": false},
         {"id": "sub_004", "title": "Automated posting (when X ready)", "done": false}
       ],
@@ -118,22 +318,22 @@
     },
     {
       "id": "MC-006",
-      "title": "[HIGH] Agent Orchestra Testing",
+      "title": "[DONE] Agent Orchestra Testing",
       "description": "Test all sub-agents can execute assigned tasks.",
-      "status": "in_progress",
+      "status": "done",
       "priority": "high",
       "owner": "alice",
       "brand": "OPS",
       "subtasks": [
         {"id": "sub_001", "title": "Fix model configs", "done": true},
-        {"id": "sub_002", "title": "Test SPM agent", "done": false},
-        {"id": "sub_003", "title": "Test JETR agent", "done": false},
-        {"id": "sub_004", "title": "Test Markets agent", "done": false},
-        {"id": "sub_005", "title": "Test X Specialist agent", "done": false}
+        {"id": "sub_002", "title": "Test SPM agent", "done": true},
+        {"id": "sub_003", "title": "Test JETR agent", "done": true},
+        {"id": "sub_004", "title": "Test Markets agent", "done": true},
+        {"id": "sub_005", "title": "Test X Specialist agent", "done": true}
       ],
+      "completedAt": "2026-02-16T16:50:00Z",
       "dod": "Sub-agents running autonomously on assigned tasks",
-      "createdAt": "2026-02-16T01:54:00Z",
-      "processingStartedAt": "2026-02-16T01:54:00Z"
+      "createdAt": "2026-02-16T01:54:00Z"
     },
     {
       "id": "MC-007",
@@ -144,16 +344,6 @@
       "owner": "webdev",
       "brand": "APEX",
       "createdAt": "2026-02-16T01:54:00Z"
-    },
-    {
-      "id": "MC-008",
-      "title": "[MEDIUM] Token Launch Website",
-      "description": "Ship tokenlaunch.xyz landing page.",
-      "status": "backlog",
-      "priority": "medium",
-      "owner": "webdev",
-      "brand": "LAUNCH",
-      "createdAt": "2026-02-15T19:06:00Z"
     },
     {
       "id": "MC-009",
@@ -189,11 +379,18 @@
       "createdAt": "2026-02-16T03:30:00Z"
     }
   ],
-  "version": "2.1.0",
-  "updatedAt": "2026-02-16T16:32:00Z",
+  "version": "2.2.0",
+  "updatedAt": "2026-02-16T20:05:00Z",
   "focus": {
-    "current": ["Agent orchestration", "Daily reporting", "Content automation"],
-    "paused": ["Voicely", "GLD Card"],
-    "upcoming": ["BART integration", "Token Launch website"]
+    "current": ["Feedback loop", "Command Center V2", "Content pipeline"],
+    "paused": [],
+    "upcoming": ["BART integration", "Voicely lead gen", "Token Launch"]
+  },
+  "metrics": {
+    "total": 25,
+    "done": 8,
+    "in_progress": 5,
+    "backlog": 11,
+    "blocked": 1
   }
 }
