@@ -19,53 +19,71 @@
       "createdAt": "2026-02-15T19:06:00Z"
     },
     {
+      "id": "MC-013",
+      "title": "[CRITICAL] Full Agent Orchestration Live",
+      "description": "All cron jobs running, sub-agents executing, daily reports flowing. This is the operating system.",
+      "status": "in_progress",
+      "priority": "critical",
+      "owner": "alice",
+      "brand": "OPS",
+      "subtasks": [
+        {"id": "sub_001", "title": "Morning Brief cron (02:00 UTC)", "done": true},
+        {"id": "sub_002", "title": "Daily Report Email cron (16:30 UTC)", "done": true},
+        {"id": "sub_003", "title": "SPM Content cron (Mon/Wed/Fri)", "done": true},
+        {"id": "sub_004", "title": "JETR Content cron (Tue/Thu/Sat)", "done": true},
+        {"id": "sub_005", "title": "Markets Intel (3x daily)", "done": true},
+        {"id": "sub_006", "title": "X Trend Detection (2x daily)", "done": true},
+        {"id": "sub_007", "title": "Email Inbox Check (every 2h)", "done": true},
+        {"id": "sub_008", "title": "Test all agents execute", "done": false}
+      ],
+      "dod": "Autonomous ops running 24/7 with daily reporting",
+      "comments": ["All crons configured 2026-02-16 16:30 UTC"],
+      "createdAt": "2026-02-16T16:30:00Z",
+      "processingStartedAt": "2026-02-16T16:30:00Z"
+    },
+    {
+      "id": "MC-014",
+      "title": "[HIGH] BART Introduction - Prediction Markets Agent",
+      "description": "Integrate BART (external OpenClaw on separate server) for prediction markets trading/signals.",
+      "status": "backlog",
+      "priority": "high",
+      "owner": "alice",
+      "brand": "OPS",
+      "subtasks": [
+        {"id": "sub_001", "title": "J provides BART server details", "done": false},
+        {"id": "sub_002", "title": "Establish communication protocol", "done": false},
+        {"id": "sub_003", "title": "Define BART's responsibilities", "done": false}
+      ],
+      "dod": "BART integrated into Apex agent network",
+      "comments": ["J mentioned another OpenClaw handling predictions"],
+      "createdAt": "2026-02-16T16:30:00Z"
+    },
+    {
       "id": "MC-002",
-      "title": "[CRITICAL] Replit → GitHub Sync",
+      "title": "[DONE] Replit → GitHub Sync",
       "description": "Sync all Replit projects to GitHub repos via Claude Computer Use.",
       "status": "done",
       "priority": "critical",
       "owner": "alice",
       "brand": "OPS",
-      "subtasks": [
-        {"id": "sub_001", "title": "VNC Chrome stable access", "done": true},
-        {"id": "sub_002", "title": "Replit login working", "done": true},
-        {"id": "sub_003", "title": "ApexLabsOS → apex-labs", "done": true},
-        {"id": "sub_004", "title": "SPM Markets → spm-markets-website", "done": true},
-        {"id": "sub_005", "title": "FlyJetr → flyjetr-website", "done": true},
-        {"id": "sub_006", "title": "VoicelyAgentElite → voicely-agent", "done": true}
-      ],
-      "dod": "All 4 projects synced to GitHub with code",
-      "comments": ["Dual-agent with Claude Computer Use = GAME CHANGER", "4/4 COMPLETE as of 12:34 UTC"],
       "completedAt": "2026-02-16T12:34:00Z",
-      "createdAt": "2026-02-16T01:54:00Z",
-      "processingStartedAt": "2026-02-16T10:00:00Z"
+      "createdAt": "2026-02-16T01:54:00Z"
     },
     {
       "id": "MC-003",
-      "title": "[CRITICAL] Mission Control → apexlabs.agency/alice",
-      "description": "Full Mission Control dashboard embedded in Command Center. Real-time, autonomous, always running.",
+      "title": "[DONE] Mission Control Dashboard",
+      "description": "Full Mission Control dashboard embedded in Command Center.",
       "status": "done",
       "priority": "critical",
       "owner": "webdev",
       "brand": "APEX",
       "completedAt": "2026-02-16T13:01:00Z",
-      "subtasks": [
-        {"id": "sub_001", "title": "Create MissionControl.tsx component", "done": true},
-        {"id": "sub_002", "title": "Fetch tasks.json from GitHub API", "done": true},
-        {"id": "sub_003", "title": "Display full kanban board", "done": true},
-        {"id": "sub_004", "title": "Real-time auto-refresh", "done": false},
-        {"id": "sub_005", "title": "Agent status indicators", "done": false},
-        {"id": "sub_006", "title": "Activity feed", "done": false}
-      ],
-      "dod": "apexlabs.agency/alice IS the Mission Control - J can check in anytime",
-      "comments": ["TOP PRIORITY"],
-      "createdAt": "2026-02-16T01:54:00Z",
-      "processingStartedAt": "2026-02-16T01:54:00Z"
+      "createdAt": "2026-02-16T01:54:00Z"
     },
     {
       "id": "MC-004",
       "title": "[HIGH] SPM Content Operations",
-      "description": "Dial in SPM NEWS production pipeline for consistent daily output.",
+      "description": "Dial in SPM NEWS production pipeline for consistent output.",
       "status": "in_progress",
       "priority": "high",
       "owner": "spm",
@@ -77,7 +95,6 @@
         {"id": "sub_004", "title": "Automated posting (when X ready)", "done": false}
       ],
       "dod": "Can produce SPM NEWS episode end-to-end autonomously",
-      "comments": ["Script workflow done, need image/video automation"],
       "createdAt": "2026-02-16T01:54:00Z",
       "processingStartedAt": "2026-02-16T01:54:00Z"
     },
@@ -96,14 +113,13 @@
         {"id": "sub_004", "title": "Automated posting (when X ready)", "done": false}
       ],
       "dod": "Can produce branded JETR content end-to-end autonomously",
-      "comments": ["Valentine content shipped successfully"],
       "createdAt": "2026-02-16T01:54:00Z",
       "processingStartedAt": "2026-02-16T01:54:00Z"
     },
     {
       "id": "MC-006",
-      "title": "[HIGH] Agent Orchestra Deployment",
-      "description": "All sub-agents operational and executing tasks in parallel.",
+      "title": "[HIGH] Agent Orchestra Testing",
+      "description": "Test all sub-agents can execute assigned tasks.",
       "status": "in_progress",
       "priority": "high",
       "owner": "alice",
@@ -112,69 +128,21 @@
         {"id": "sub_001", "title": "Fix model configs", "done": true},
         {"id": "sub_002", "title": "Test SPM agent", "done": false},
         {"id": "sub_003", "title": "Test JETR agent", "done": false},
-        {"id": "sub_004", "title": "Test WebDev agent", "done": false},
-        {"id": "sub_005", "title": "Parallel execution working", "done": false}
+        {"id": "sub_004", "title": "Test Markets agent", "done": false},
+        {"id": "sub_005", "title": "Test X Specialist agent", "done": false}
       ],
       "dod": "Sub-agents running autonomously on assigned tasks",
-      "comments": ["Model configs fixed"],
       "createdAt": "2026-02-16T01:54:00Z",
       "processingStartedAt": "2026-02-16T01:54:00Z"
     },
     {
-      "id": "MC-011",
-      "title": "[DONE] alice@apexlabs.agency Email Setup",
-      "description": "Set up Alice's official email via AgentMail.",
-      "status": "done",
-      "priority": "high",
-      "owner": "alice",
-      "brand": "APEX",
-      "subtasks": [
-        {"id": "sub_001", "title": "Create AgentMail inbox", "done": true},
-        {"id": "sub_002", "title": "Document API in skill", "done": true},
-        {"id": "sub_003", "title": "Test outbound email", "done": true},
-        {"id": "sub_004", "title": "Add MX record for inbound", "done": false}
-      ],
-      "dod": "Alice can send/receive email",
-      "comments": ["Outbound works, inbound blocked by Replit DNS - support ticket sent"],
-      "createdAt": "2026-02-16T03:30:00Z",
-      "completedAt": "2026-02-16T04:30:00Z"
-    },
-    {
-      "id": "MC-012",
-      "title": "[IN PROGRESS] SPM NEWS Episode 2026-02-16",
-      "description": "Produce SPM NEWS episode covering Trump impeachment, Elon trillionaire, Obama aliens.",
-      "status": "in_progress",
-      "priority": "high",
-      "owner": "spm",
-      "brand": "SPM",
-      "subtasks": [
-        {"id": "sub_001", "title": "Research news sources", "done": true},
-        {"id": "sub_002", "title": "Write script", "done": true},
-        {"id": "sub_003", "title": "Generate images", "done": false},
-        {"id": "sub_004", "title": "Generate videos", "done": false},
-        {"id": "sub_005", "title": "Assemble final", "done": false}
-      ],
-      "dod": "Episode ready for posting",
-      "comments": ["Script at /root/.openclaw/agents/spm/productions/episode-2026-02-16/"],
-      "createdAt": "2026-02-16T04:30:00Z",
-      "processingStartedAt": "2026-02-16T04:40:00Z"
-    },
-    {
       "id": "MC-007",
-      "title": "[HIGH] Apex Website Quick Fixes",
+      "title": "[MEDIUM] Apex Website Quick Fixes",
       "description": "Fix inaccuracies and add CTAs to apexlabs.agency",
       "status": "backlog",
-      "priority": "high",
+      "priority": "medium",
       "owner": "webdev",
       "brand": "APEX",
-      "subtasks": [
-        {"id": "sub_001", "title": "Fix agent count", "done": false},
-        {"id": "sub_002", "title": "Verify skills count", "done": false},
-        {"id": "sub_003", "title": "Add contact email", "done": false},
-        {"id": "sub_004", "title": "Add Book a Call CTA", "done": false}
-      ],
-      "dod": "Homepage accurate with clear CTAs",
-      "comments": [],
       "createdAt": "2026-02-16T01:54:00Z"
     },
     {
@@ -185,13 +153,6 @@
       "priority": "medium",
       "owner": "webdev",
       "brand": "LAUNCH",
-      "subtasks": [
-        {"id": "sub_001", "title": "Design mockup", "done": false},
-        {"id": "sub_002", "title": "Build in Replit", "done": false},
-        {"id": "sub_003", "title": "Deploy", "done": false}
-      ],
-      "dod": "Site live at tokenlaunch.xyz",
-      "comments": [],
       "createdAt": "2026-02-15T19:06:00Z"
     },
     {
@@ -202,16 +163,8 @@
       "priority": "high",
       "owner": "alice",
       "brand": "OPS",
-      "subtasks": [
-        {"id": "sub_001", "title": "Tailscale + Funnel", "done": true},
-        {"id": "sub_002", "title": "GitHub CLI auth", "done": true},
-        {"id": "sub_003", "title": "GitHub Pages deploy", "done": true},
-        {"id": "sub_004", "title": "Webhook configured", "done": true}
-      ],
-      "dod": "Infrastructure ready",
-      "comments": ["Completed 2026-02-15"],
-      "createdAt": "2026-02-15T19:00:00Z",
-      "completedAt": "2026-02-15T19:06:00Z"
+      "completedAt": "2026-02-15T19:06:00Z",
+      "createdAt": "2026-02-15T19:00:00Z"
     },
     {
       "id": "MC-010",
@@ -221,21 +174,26 @@
       "priority": "high",
       "owner": "alice",
       "brand": "APEX",
-      "subtasks": [
-        {"id": "sub_001", "title": "Draft 5 posts", "done": true},
-        {"id": "sub_002", "title": "Review tone", "done": true}
-      ],
-      "dod": "5 LinkedIn posts ready",
-      "comments": ["See /workspace/content/alice-linkedin-drafts.md"],
-      "createdAt": "2026-02-15T19:06:00Z",
-      "completedAt": "2026-02-15T19:24:00Z"
+      "completedAt": "2026-02-15T19:24:00Z",
+      "createdAt": "2026-02-15T19:06:00Z"
+    },
+    {
+      "id": "MC-011",
+      "title": "[DONE] alice@apexlabs.agency Email Setup",
+      "description": "Set up Alice's official email via AgentMail.",
+      "status": "done",
+      "priority": "high",
+      "owner": "alice",
+      "brand": "APEX",
+      "completedAt": "2026-02-16T04:30:00Z",
+      "createdAt": "2026-02-16T03:30:00Z"
     }
   ],
-  "version": "2.0.0",
-  "updatedAt": "2026-02-16T12:15:00Z",
+  "version": "2.1.0",
+  "updatedAt": "2026-02-16T16:32:00Z",
   "focus": {
-    "current": ["Apex infrastructure", "Replit automation", "SPM/JETR content ops", "Mission Control → /alice"],
+    "current": ["Agent orchestration", "Daily reporting", "Content automation"],
     "paused": ["Voicely", "GLD Card"],
-    "removed": ["Bankr"]
+    "upcoming": ["BART integration", "Token Launch website"]
   }
 }
