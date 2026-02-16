@@ -9,13 +9,31 @@
       "owner": "alice",
       "brand": "ALL",
       "subtasks": [
-        { "id": "sub_001", "title": "J provides X credentials/access", "done": false },
-        { "id": "sub_002", "title": "VNC login to X for SPM", "done": false },
-        { "id": "sub_003", "title": "VNC login to X for JETR", "done": false },
-        { "id": "sub_004", "title": "Test post from each account", "done": false }
+        {
+          "id": "sub_001",
+          "title": "J provides X credentials/access",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "VNC login to X for SPM",
+          "done": false
+        },
+        {
+          "id": "sub_003",
+          "title": "VNC login to X for JETR",
+          "done": false
+        },
+        {
+          "id": "sub_004",
+          "title": "Test post from each account",
+          "done": false
+        }
       ],
       "dod": "Both accounts can post via automation",
-      "comments": ["Waiting for J"],
+      "comments": [
+        "Waiting for J"
+      ],
       "createdAt": "2026-02-15T19:06:00Z"
     },
     {
@@ -27,12 +45,26 @@
       "owner": "spm",
       "brand": "SPM",
       "subtasks": [
-        { "id": "sub_001", "title": "Create TikTok account", "done": false },
-        { "id": "sub_002", "title": "Set up profile", "done": false },
-        { "id": "sub_003", "title": "Post first TikTok", "done": false }
+        {
+          "id": "sub_001",
+          "title": "Create TikTok account",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "Set up profile",
+          "done": false
+        },
+        {
+          "id": "sub_003",
+          "title": "Post first TikTok",
+          "done": false
+        }
       ],
       "dod": "TikTok account live with first video",
-      "comments": ["Needs J for account creation"],
+      "comments": [
+        "Needs J for account creation"
+      ],
       "createdAt": "2026-02-15T19:06:00Z"
     },
     {
@@ -44,12 +76,26 @@
       "owner": "alice",
       "brand": "APEX",
       "subtasks": [
-        { "id": "sub_001", "title": "Create/access @AliceHebert", "done": false },
-        { "id": "sub_002", "title": "Set up profile", "done": false },
-        { "id": "sub_003", "title": "Begin daily posting", "done": false }
+        {
+          "id": "sub_001",
+          "title": "Create/access @AliceHebert",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "Set up profile",
+          "done": false
+        },
+        {
+          "id": "sub_003",
+          "title": "Begin daily posting",
+          "done": false
+        }
       ],
       "dod": "Alice X account active",
-      "comments": ["Needs J for account access"],
+      "comments": [
+        "Needs J for account access"
+      ],
       "createdAt": "2026-02-15T19:06:00Z"
     },
     {
@@ -61,32 +107,68 @@
       "owner": "alice",
       "brand": "APEX",
       "subtasks": [
-        { "id": "sub_001", "title": "Draft 5 LinkedIn posts", "done": true },
-        { "id": "sub_002", "title": "Review tone/positioning", "done": true },
-        { "id": "sub_003", "title": "Ready for posting", "done": true }
+        {
+          "id": "sub_001",
+          "title": "Draft 5 LinkedIn posts",
+          "done": true
+        },
+        {
+          "id": "sub_002",
+          "title": "Review tone/positioning",
+          "done": true
+        },
+        {
+          "id": "sub_003",
+          "title": "Ready for posting",
+          "done": true
+        }
       ],
       "dod": "5 LinkedIn posts ready",
-      "comments": ["Completed - see /workspace/content/alice-linkedin-drafts.md"],
+      "comments": [
+        "Completed - see /workspace/content/alice-linkedin-drafts.md"
+      ],
       "createdAt": "2026-02-15T19:06:00Z",
       "completedAt": "2026-02-15T19:24:00Z"
     },
     {
       "id": "MC-005",
       "title": "[HIGH] SPM NEWS Episode 1",
-      "description": "Iran Market Hits $260M — Full 5-scene production.",
+      "description": "Iran Market Hits $260M \u2014 Full 5-scene production.",
       "status": "in_progress",
       "priority": "high",
       "owner": "spm",
       "brand": "SPM",
       "subtasks": [
-        { "id": "sub_001", "title": "Research trending Polymarket topics", "done": true },
-        { "id": "sub_002", "title": "Script + Storyboard", "done": true },
-        { "id": "sub_003", "title": "Generate 5 images", "done": false },
-        { "id": "sub_004", "title": "Generate video", "done": false },
-        { "id": "sub_005", "title": "Deliver", "done": false }
+        {
+          "id": "sub_001",
+          "title": "Research trending Polymarket topics",
+          "done": true
+        },
+        {
+          "id": "sub_002",
+          "title": "Script + Storyboard",
+          "done": true
+        },
+        {
+          "id": "sub_003",
+          "title": "Generate 5 images",
+          "done": false
+        },
+        {
+          "id": "sub_004",
+          "title": "Generate video",
+          "done": false
+        },
+        {
+          "id": "sub_005",
+          "title": "Deliver",
+          "done": false
+        }
       ],
       "dod": "Video delivered to Telegram",
-      "comments": ["Script complete - generating images"],
+      "comments": [
+        "Script complete - generating images"
+      ],
       "createdAt": "2026-02-15T19:06:00Z",
       "processingStartedAt": "2026-02-15T19:21:00Z"
     },
@@ -99,12 +181,26 @@
       "owner": "webdev",
       "brand": "LAUNCH",
       "subtasks": [
-        { "id": "sub_001", "title": "Design mockup", "done": false },
-        { "id": "sub_002", "title": "Build in Replit", "done": false },
-        { "id": "sub_003", "title": "Deploy", "done": false }
+        {
+          "id": "sub_001",
+          "title": "Design mockup",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "Build in Replit",
+          "done": false
+        },
+        {
+          "id": "sub_003",
+          "title": "Deploy",
+          "done": false
+        }
       ],
       "dod": "Site live at tokenlaunch.xyz",
-      "comments": ["Starting overnight"],
+      "comments": [
+        "Starting overnight"
+      ],
       "createdAt": "2026-02-15T19:06:00Z",
       "processingStartedAt": "2026-02-15T19:26:00Z"
     },
@@ -117,13 +213,31 @@
       "owner": "alice",
       "brand": "VOICELY",
       "subtasks": [
-        { "id": "sub_001", "title": "Create 5 email templates", "done": true },
-        { "id": "sub_002", "title": "Build lead list (50 targets)", "done": false },
-        { "id": "sub_003", "title": "Send batch 1", "done": false },
-        { "id": "sub_004", "title": "Send batch 2", "done": false }
+        {
+          "id": "sub_001",
+          "title": "Create 5 email templates",
+          "done": true
+        },
+        {
+          "id": "sub_002",
+          "title": "Build lead list (50 targets)",
+          "done": false
+        },
+        {
+          "id": "sub_003",
+          "title": "Send batch 1",
+          "done": false
+        },
+        {
+          "id": "sub_004",
+          "title": "Send batch 2",
+          "done": false
+        }
       ],
       "dod": "50 cold emails sent",
-      "comments": ["Templates done - building lead list"],
+      "comments": [
+        "Templates done - building lead list"
+      ],
       "createdAt": "2026-02-15T19:06:00Z",
       "processingStartedAt": "2026-02-15T19:21:00Z"
     },
@@ -136,11 +250,21 @@
       "owner": "jetr",
       "brand": "JETR",
       "subtasks": [
-        { "id": "sub_001", "title": "5 destination images", "done": false },
-        { "id": "sub_002", "title": "5 lifestyle images", "done": false }
+        {
+          "id": "sub_001",
+          "title": "5 destination images",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "5 lifestyle images",
+          "done": false
+        }
       ],
       "dod": "10 branded images ready",
-      "comments": ["Generating overnight"],
+      "comments": [
+        "Generating overnight"
+      ],
       "createdAt": "2026-02-15T19:06:00Z",
       "processingStartedAt": "2026-02-15T19:21:00Z"
     },
@@ -153,9 +277,21 @@
       "owner": "webdev",
       "brand": "GLD",
       "subtasks": [
-        { "id": "sub_001", "title": "Design", "done": false },
-        { "id": "sub_002", "title": "Build", "done": false },
-        { "id": "sub_003", "title": "Deploy", "done": false }
+        {
+          "id": "sub_001",
+          "title": "Design",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "Build",
+          "done": false
+        },
+        {
+          "id": "sub_003",
+          "title": "Deploy",
+          "done": false
+        }
       ],
       "dod": "Site live at gldcard.vip",
       "comments": [],
@@ -170,9 +306,21 @@
       "owner": "creative",
       "brand": "VOICELY",
       "subtasks": [
-        { "id": "sub_001", "title": "Script", "done": false },
-        { "id": "sub_002", "title": "Record demo", "done": false },
-        { "id": "sub_003", "title": "Edit and brand", "done": false }
+        {
+          "id": "sub_001",
+          "title": "Script",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "Record demo",
+          "done": false
+        },
+        {
+          "id": "sub_003",
+          "title": "Edit and brand",
+          "done": false
+        }
       ],
       "dod": "60s video ready",
       "comments": [],
@@ -187,8 +335,16 @@
       "owner": "alice",
       "brand": "OPS",
       "subtasks": [
-        { "id": "sub_001", "title": "Connect wallet to Bankr", "done": false },
-        { "id": "sub_002", "title": "Test trade", "done": false }
+        {
+          "id": "sub_001",
+          "title": "Connect wallet to Bankr",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "Test trade",
+          "done": false
+        }
       ],
       "dod": "Can execute trades",
       "comments": [],
@@ -203,9 +359,21 @@
       "owner": "alice",
       "brand": "OPS",
       "subtasks": [
-        { "id": "sub_001", "title": "Check current balance", "done": false },
-        { "id": "sub_002", "title": "Research alternatives", "done": false },
-        { "id": "sub_003", "title": "Top up or switch", "done": false }
+        {
+          "id": "sub_001",
+          "title": "Check current balance",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "Research alternatives",
+          "done": false
+        },
+        {
+          "id": "sub_003",
+          "title": "Top up or switch",
+          "done": false
+        }
       ],
       "dod": "20+ video generations available",
       "comments": [],
@@ -221,14 +389,36 @@
       "owner": "alice",
       "brand": "OPS",
       "subtasks": [
-        { "id": "sub_001", "title": "Install Tailscale", "done": true },
-        { "id": "sub_002", "title": "Enable Funnel", "done": true },
-        { "id": "sub_003", "title": "GitHub CLI auth", "done": true },
-        { "id": "sub_004", "title": "Deploy Pages", "done": true },
-        { "id": "sub_005", "title": "Configure webhook", "done": true }
+        {
+          "id": "sub_001",
+          "title": "Install Tailscale",
+          "done": true
+        },
+        {
+          "id": "sub_002",
+          "title": "Enable Funnel",
+          "done": true
+        },
+        {
+          "id": "sub_003",
+          "title": "GitHub CLI auth",
+          "done": true
+        },
+        {
+          "id": "sub_004",
+          "title": "Deploy Pages",
+          "done": true
+        },
+        {
+          "id": "sub_005",
+          "title": "Configure webhook",
+          "done": true
+        }
       ],
       "dod": "Dashboard live",
-      "comments": ["Completed 2026-02-15"],
+      "comments": [
+        "Completed 2026-02-15"
+      ],
       "createdAt": "2026-02-15T19:00:00Z",
       "completedAt": "2026-02-15T19:06:00Z"
     },
@@ -241,12 +431,26 @@
       "owner": "markets",
       "brand": "OPS",
       "subtasks": [
-        { "id": "sub_001", "title": "Scan AI agent competitors", "done": false },
-        { "id": "sub_002", "title": "Scan prediction market competitors", "done": false },
-        { "id": "sub_003", "title": "Compile report", "done": false }
+        {
+          "id": "sub_001",
+          "title": "Scan AI agent competitors",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "Scan prediction market competitors",
+          "done": false
+        },
+        {
+          "id": "sub_003",
+          "title": "Compile report",
+          "done": false
+        }
       ],
       "dod": "Weekly intel report",
-      "comments": ["Self-initiated"],
+      "comments": [
+        "Self-initiated"
+      ],
       "createdAt": "2026-02-15T19:21:00Z"
     },
     {
@@ -258,12 +462,26 @@
       "owner": "alice",
       "brand": "OPS",
       "subtasks": [
-        { "id": "sub_001", "title": "Map workflows", "done": false },
-        { "id": "sub_002", "title": "Find bottlenecks", "done": false },
-        { "id": "sub_003", "title": "Implement top 3 fixes", "done": false }
+        {
+          "id": "sub_001",
+          "title": "Map workflows",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "Find bottlenecks",
+          "done": false
+        },
+        {
+          "id": "sub_003",
+          "title": "Implement top 3 fixes",
+          "done": false
+        }
       ],
       "dod": "3 improvements shipped",
-      "comments": ["Self-initiated"],
+      "comments": [
+        "Self-initiated"
+      ],
       "createdAt": "2026-02-15T19:21:00Z"
     },
     {
@@ -275,12 +493,26 @@
       "owner": "alice",
       "brand": "ALL",
       "subtasks": [
-        { "id": "sub_001", "title": "SPM 14-day plan", "done": false },
-        { "id": "sub_002", "title": "JETR 14-day plan", "done": false },
-        { "id": "sub_003", "title": "Alice 14-day plan", "done": false }
+        {
+          "id": "sub_001",
+          "title": "SPM 14-day plan",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "JETR 14-day plan",
+          "done": false
+        },
+        {
+          "id": "sub_003",
+          "title": "Alice 14-day plan",
+          "done": false
+        }
       ],
       "dod": "2-week pipeline ready",
-      "comments": ["Self-initiated"],
+      "comments": [
+        "Self-initiated"
+      ],
       "createdAt": "2026-02-15T19:21:00Z"
     },
     {
@@ -292,12 +524,26 @@
       "owner": "webdev",
       "brand": "OPS",
       "subtasks": [
-        { "id": "sub_001", "title": "Define KPIs", "done": false },
-        { "id": "sub_002", "title": "Build dashboard", "done": false },
-        { "id": "sub_003", "title": "Weekly reporting", "done": false }
+        {
+          "id": "sub_001",
+          "title": "Define KPIs",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "Build dashboard",
+          "done": false
+        },
+        {
+          "id": "sub_003",
+          "title": "Weekly reporting",
+          "done": false
+        }
       ],
       "dod": "Dashboard live",
-      "comments": ["Self-initiated"],
+      "comments": [
+        "Self-initiated"
+      ],
       "createdAt": "2026-02-15T19:21:00Z"
     },
     {
@@ -309,14 +555,36 @@
       "owner": "webdev",
       "brand": "OPS",
       "subtasks": [
-        { "id": "sub_001", "title": "Design integration architecture", "done": false },
-        { "id": "sub_002", "title": "Embed Mission Control in Command Center", "done": false },
-        { "id": "sub_003", "title": "Real-time task sync", "done": false },
-        { "id": "sub_004", "title": "Agent status display", "done": false },
-        { "id": "sub_005", "title": "Live activity feed", "done": false }
+        {
+          "id": "sub_001",
+          "title": "Design integration architecture",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "Embed Mission Control in Command Center",
+          "done": false
+        },
+        {
+          "id": "sub_003",
+          "title": "Real-time task sync",
+          "done": false
+        },
+        {
+          "id": "sub_004",
+          "title": "Agent status display",
+          "done": false
+        },
+        {
+          "id": "sub_005",
+          "title": "Live activity feed",
+          "done": false
+        }
       ],
       "dod": "apexlabs.agency/alice shows live Mission Control data",
-      "comments": ["OVERNIGHT PRIORITY - WOW J when he wakes up"],
+      "comments": [
+        "OVERNIGHT PRIORITY - WOW J when he wakes up"
+      ],
       "createdAt": "2026-02-15T19:26:00Z",
       "processingStartedAt": "2026-02-15T19:26:00Z"
     },
@@ -329,19 +597,171 @@
       "owner": "alice",
       "brand": "OPS",
       "subtasks": [
-        { "id": "sub_001", "title": "Fix model configs", "done": true },
-        { "id": "sub_002", "title": "Test SPM agent", "done": false },
-        { "id": "sub_003", "title": "Test JETR agent", "done": false },
-        { "id": "sub_004", "title": "Test WebDev agent", "done": false },
-        { "id": "sub_005", "title": "Test Creative agent", "done": false },
-        { "id": "sub_006", "title": "All agents running parallel tasks", "done": false }
+        {
+          "id": "sub_001",
+          "title": "Fix model configs",
+          "done": true
+        },
+        {
+          "id": "sub_002",
+          "title": "Test SPM agent",
+          "done": false
+        },
+        {
+          "id": "sub_003",
+          "title": "Test JETR agent",
+          "done": false
+        },
+        {
+          "id": "sub_004",
+          "title": "Test WebDev agent",
+          "done": false
+        },
+        {
+          "id": "sub_005",
+          "title": "Test Creative agent",
+          "done": false
+        },
+        {
+          "id": "sub_006",
+          "title": "All agents running parallel tasks",
+          "done": false
+        }
       ],
       "dod": "6 agents executing autonomously",
-      "comments": ["Model configs fixed - testing now"],
+      "comments": [
+        "Model configs fixed - testing now"
+      ],
       "createdAt": "2026-02-15T19:26:00Z",
       "processingStartedAt": "2026-02-15T19:26:00Z"
+    },
+    {
+      "id": "MC-020",
+      "title": "[HIGH] Apex Website - Quick Fixes",
+      "description": "Fix inaccuracies on apexlabs.agency homepage",
+      "status": "backlog",
+      "priority": "high",
+      "owner": "webdev",
+      "brand": "APEX",
+      "subtasks": [
+        {
+          "id": "sub_001",
+          "title": "Fix agent count (8 \u2192 7)",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "Verify '70+ SKILLS' claim",
+          "done": false
+        },
+        {
+          "id": "sub_003",
+          "title": "Add contact email to footer",
+          "done": false
+        },
+        {
+          "id": "sub_004",
+          "title": "Add 'Book a Call' CTA",
+          "done": false
+        }
+      ],
+      "dod": "Homepage displays accurate info with clear CTAs",
+      "comments": [],
+      "createdAt": "2026-02-16T01:35:00Z"
+    },
+    {
+      "id": "MC-021",
+      "title": "[HIGH] Apex Website - Mission Control Integration",
+      "description": "Embed Mission Control task board into /alice Command Center page",
+      "status": "backlog",
+      "priority": "high",
+      "owner": "webdev",
+      "brand": "APEX",
+      "subtasks": [
+        {
+          "id": "sub_001",
+          "title": "Create MissionControl.tsx component",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "Fetch tasks.json from GitHub API",
+          "done": false
+        },
+        {
+          "id": "sub_003",
+          "title": "Display kanban in Command Center",
+          "done": false
+        },
+        {
+          "id": "sub_004",
+          "title": "Add real-time refresh",
+          "done": false
+        }
+      ],
+      "dod": "Live task board visible in Command Center",
+      "comments": [],
+      "createdAt": "2026-02-16T01:35:00Z"
+    },
+    {
+      "id": "MC-022",
+      "title": "[MEDIUM] Apex Website - New Sections",
+      "description": "Add missing sections: live status feed, portfolio links, social proof",
+      "status": "backlog",
+      "priority": "medium",
+      "owner": "webdev",
+      "brand": "APEX",
+      "subtasks": [
+        {
+          "id": "sub_001",
+          "title": "Live agent status feed",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "Connect portfolio 'View More' links",
+          "done": false
+        },
+        {
+          "id": "sub_003",
+          "title": "Add testimonials/case studies section",
+          "done": false
+        }
+      ],
+      "dod": "All sections functional with real content",
+      "comments": [],
+      "createdAt": "2026-02-16T01:35:00Z"
+    },
+    {
+      "id": "MC-023",
+      "title": "[MEDIUM] Apex Website - Polish & Performance",
+      "description": "Mobile optimization, load times, SEO",
+      "status": "backlog",
+      "priority": "medium",
+      "owner": "webdev",
+      "brand": "APEX",
+      "subtasks": [
+        {
+          "id": "sub_001",
+          "title": "Test mobile responsiveness",
+          "done": false
+        },
+        {
+          "id": "sub_002",
+          "title": "Optimize images & lazy load",
+          "done": false
+        },
+        {
+          "id": "sub_003",
+          "title": "Update SEO meta tags",
+          "done": false
+        }
+      ],
+      "dod": "Mobile-friendly, fast load, good SEO",
+      "comments": [],
+      "createdAt": "2026-02-16T01:35:00Z"
     }
   ],
   "version": "1.0.2",
-  "updatedAt": "2026-02-15T19:26:00Z"
+  "updatedAt": "2026-02-16T01:35:00Z"
 }
