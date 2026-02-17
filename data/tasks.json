@@ -8,6 +8,7 @@
       "priority": "critical",
       "owner": "alice",
       "brand": "ALL",
+      "dueDate": "2026-02-18",
       "subtasks": [
         {"id": "sub_001", "title": "J provides X credentials/access", "done": false},
         {"id": "sub_002", "title": "VNC login to X for SPM", "done": false},
@@ -26,6 +27,7 @@
       "priority": "critical",
       "owner": "alice",
       "brand": "OPS",
+      "dueDate": "2026-02-19",
       "subtasks": [
         {"id": "sub_001", "title": "Define metrics to track", "done": true},
         {"id": "sub_002", "title": "Create neural.json data structure", "done": true},
@@ -45,6 +47,7 @@
       "priority": "critical",
       "owner": "webdev",
       "brand": "APEX",
+      "dueDate": "2026-02-17",
       "subtasks": [
         {"id": "sub_001", "title": "Design spec complete", "done": true},
         {"id": "sub_002", "title": "Agent avatar prompts", "done": true},
@@ -66,6 +69,7 @@
       "priority": "high",
       "owner": "spm",
       "brand": "SPM",
+      "dueDate": "2026-02-20",
       "subtasks": [
         {"id": "sub_001", "title": "Research top 3 Polymarket stories", "done": true},
         {"id": "sub_002", "title": "Write 5-scene script", "done": false},
@@ -86,6 +90,7 @@
       "priority": "high",
       "owner": "jetr",
       "brand": "JETR",
+      "dueDate": "2026-02-23",
       "subtasks": [
         {"id": "sub_001", "title": "Monday: Maldives content", "done": false},
         {"id": "sub_002", "title": "Wednesday: St. Barts content", "done": false},
@@ -104,6 +109,7 @@
       "priority": "high",
       "owner": "creative",
       "brand": "APEX",
+      "dueDate": "2026-02-19",
       "subtasks": [
         {"id": "sub_001", "title": "Alice avatar", "done": false},
         {"id": "sub_002", "title": "SPM avatar", "done": false},
@@ -124,6 +130,7 @@
       "priority": "high",
       "owner": "alice",
       "brand": "VOICELY",
+      "dueDate": "2026-02-21",
       "subtasks": [
         {"id": "sub_001", "title": "Define ICP (real estate, legal, finance)", "done": false},
         {"id": "sub_002", "title": "Build prospect scraper", "done": false},
@@ -142,6 +149,7 @@
       "priority": "medium",
       "owner": "markets",
       "brand": "SPM",
+      "dueDate": "2026-02-24",
       "subtasks": [
         {"id": "sub_001", "title": "Define entry/exit criteria", "done": false},
         {"id": "sub_002", "title": "Identify arbitrage opportunities", "done": false},
@@ -159,6 +167,7 @@
       "priority": "medium",
       "owner": "webdev",
       "brand": "LAUNCH",
+      "dueDate": "2026-02-22",
       "subtasks": [
         {"id": "sub_001", "title": "Design landing page", "done": false},
         {"id": "sub_002", "title": "Build in Replit", "done": false},
@@ -176,6 +185,7 @@
       "priority": "medium",
       "owner": "webdev",
       "brand": "GLD",
+      "dueDate": "2026-02-22",
       "subtasks": [
         {"id": "sub_001", "title": "Design luxury card aesthetic", "done": false},
         {"id": "sub_002", "title": "Build in Replit", "done": false},
@@ -193,6 +203,7 @@
       "priority": "medium",
       "owner": "markets",
       "brand": "OPS",
+      "dueDate": "2026-02-20",
       "subtasks": [
         {"id": "sub_001", "title": "Define report format", "done": false},
         {"id": "sub_002", "title": "Build data aggregation", "done": false},
@@ -210,6 +221,7 @@
       "priority": "medium",
       "owner": "xspecialist",
       "brand": "ALL",
+      "dueDate": "2026-02-21",
       "subtasks": [
         {"id": "sub_001", "title": "Monitor crypto/predictions hashtags", "done": false},
         {"id": "sub_002", "title": "Identify viral patterns", "done": false},
@@ -218,6 +230,26 @@
       ],
       "dod": "Automated trend alerts with content suggestions",
       "createdAt": "2026-02-16T20:00:00Z"
+    },
+    {
+      "id": "MC-026",
+      "title": "[HIGH] TikTok UGC Pipeline",
+      "description": "Set up automated TikTok video production pipeline with Kling AI.",
+      "status": "in_progress",
+      "priority": "high",
+      "owner": "tiktok",
+      "brand": "ALL",
+      "dueDate": "2026-02-18",
+      "subtasks": [
+        {"id": "sub_001", "title": "TikTok agent created", "done": true},
+        {"id": "sub_002", "title": "First video concepts generated", "done": true},
+        {"id": "sub_003", "title": "fal.ai API integration", "done": false},
+        {"id": "sub_004", "title": "Test Kling video generation", "done": false},
+        {"id": "sub_005", "title": "Automated 9:16 vertical production", "done": false}
+      ],
+      "dod": "Can produce 12 TikTok videos/day via automation",
+      "createdAt": "2026-02-17T10:30:00Z",
+      "processingStartedAt": "2026-02-17T10:30:00Z"
     },
     {
       "id": "MC-013",
@@ -249,6 +281,7 @@
       "priority": "high",
       "owner": "alice",
       "brand": "OPS",
+      "dueDate": "2026-02-25",
       "subtasks": [
         {"id": "sub_001", "title": "J provides BART server details", "done": false},
         {"id": "sub_002", "title": "Establish communication protocol", "done": false},
@@ -288,6 +321,7 @@
       "priority": "high",
       "owner": "spm",
       "brand": "SPM",
+      "dueDate": "2026-02-19",
       "subtasks": [
         {"id": "sub_001", "title": "Research → Script workflow", "done": true},
         {"id": "sub_002", "title": "Image generation pipeline", "done": true},
@@ -306,6 +340,7 @@
       "priority": "high",
       "owner": "jetr",
       "brand": "JETR",
+      "dueDate": "2026-02-19",
       "subtasks": [
         {"id": "sub_001", "title": "Image generation workflow", "done": true},
         {"id": "sub_002", "title": "Logo branding automation", "done": true},
@@ -343,6 +378,7 @@
       "priority": "medium",
       "owner": "webdev",
       "brand": "APEX",
+      "dueDate": "2026-02-20",
       "createdAt": "2026-02-16T01:54:00Z"
     },
     {
@@ -377,19 +413,37 @@
       "brand": "APEX",
       "completedAt": "2026-02-16T04:30:00Z",
       "createdAt": "2026-02-16T03:30:00Z"
+    },
+    {
+      "id": "MC-027",
+      "title": "[HIGH] RSG Client Call",
+      "description": "Discovery call with Red Stakes Golf - $150K+ potential engagement.",
+      "status": "in_progress",
+      "priority": "high",
+      "owner": "alice",
+      "brand": "CLIENT",
+      "dueDate": "2026-02-17",
+      "subtasks": [
+        {"id": "sub_001", "title": "Review cheat sheet PDF", "done": true},
+        {"id": "sub_002", "title": "Call with RSG team", "done": false},
+        {"id": "sub_003", "title": "Follow-up proposal", "done": false}
+      ],
+      "dod": "Call completed, next steps agreed",
+      "createdAt": "2026-02-17T10:00:00Z",
+      "processingStartedAt": "2026-02-17T10:00:00Z"
     }
   ],
-  "version": "2.2.0",
-  "updatedAt": "2026-02-16T20:05:00Z",
+  "version": "2.3.0",
+  "updatedAt": "2026-02-17T11:45:00Z",
   "focus": {
-    "current": ["Feedback loop", "Command Center V2", "Content pipeline"],
+    "current": ["Dashboard sync", "TikTok pipeline", "RSG call"],
     "paused": [],
     "upcoming": ["BART integration", "Voicely lead gen", "Token Launch"]
   },
   "metrics": {
-    "total": 25,
+    "total": 26,
     "done": 8,
-    "in_progress": 5,
+    "in_progress": 6,
     "backlog": 11,
     "blocked": 1
   }

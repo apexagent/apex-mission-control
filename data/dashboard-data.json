@@ -1,17 +1,17 @@
 {
-  "lastUpdated": 1771328453000,
+  "lastUpdated": 1771332052000,
   "crypto": {
-    "btc": {"price": 67782, "change24h": -1.224},
-    "eth": {"price": 1967, "change24h": -0.117},
-    "sol": {"price": 85, "change24h": -0.375}
+    "btc": {"price": 68201, "change24h": -1.778},
+    "eth": {"price": 1974, "change24h": -1.093},
+    "sol": {"price": 85, "change24h": -0.997}
   },
   "tasks": {
     "backlog": 11,
-    "inProgress": 4,
+    "inProgress": 6,
     "review": 0,
     "done": 7,
     "blocked": 1,
-    "total": 23
+    "total": 25
   },
   "agents": [
   {
@@ -70,7 +70,7 @@
     "emoji": "💻",
     "status": "idle",
     "currentTask": null,
-    "lastActivity": "2026-02-17T10:04:00Z",
+    "lastActivity": "2026-02-17T11:54:21Z",
     "tasksCompleted": 2,
     "brand": "OPS"
   },
@@ -78,16 +78,16 @@
     "id": "tiktok",
     "name": "TikTok Agent",
     "emoji": "🎬",
-    "status": "idle",
-    "currentTask": null,
-    "lastActivity": null,
-    "tasksCompleted": 0,
+    "status": "active",
+    "currentTask": "Test Video Script",
+    "lastActivity": "2026-02-17T11:47:01Z",
+    "tasksCompleted": 2,
     "brand": "OPS"
   }
 ],
   "crons": {
     "total": 12,
     "active": 12,
-    "lastRun": "2026-02-17T11:40:53Z"
+    "lastRun": "2026-02-17T12:40:52Z"
   }
 }
