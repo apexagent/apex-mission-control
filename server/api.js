@@ -84,6 +84,16 @@ app.get('/api/neural.json', (req, res) => {
   }
 });
 
+// Dashboard data endpoint (live data - refreshes every 60s)
+app.get('/api/dashboard-data.json', (req, res) => {
+  const data = readJsonFile('dashboard-data.json');
+  if (data) {
+    res.json(data);
+  } else {
+    res.status(500).json({ error: 'Failed to read dashboard-data.json' });
+  }
+});
+
 // Health check
 app.get('/health', (req, res) => {
   res.json({ 

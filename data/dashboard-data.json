@@ -1,0 +1,30 @@
+{
+  "lastUpdated": 1771306732000,
+  "crypto": {
+    "btc": {"price": 67937, "change24h": -0.538669482494851},
+    "eth": {"price": 1967.07, "change24h": 0.6881803895180197},
+    "sol": {"price": 85.67, "change24h": 0.9089480757035062}
+  },
+  "tasks": {
+    "backlog": 11,
+    "inProgress": 4,
+    "review": 0,
+    "done": 7,
+    "blocked": 1,
+    "total": 23
+  },
+  "agents": [
+    {"id": "alice", "name": "Alice", "status": "active", "tokensUsed": 200000, "cost": 3.00},
+    {"id": "spm", "name": "SPM Agent", "status": "idle", "tasksCompleted": 1},
+    {"id": "jetr", "name": "JETR Agent", "status": "idle", "tasksCompleted": 1},
+    {"id": "markets", "name": "Markets Agent", "status": "idle", "tasksCompleted": 1},
+    {"id": "xspecialist", "name": "X Specialist", "status": "idle", "tasksCompleted": 0},
+    {"id": "creative", "name": "Creative Agent", "status": "idle", "tasksCompleted": 0},
+    {"id": "webdev", "name": "WebDev Agent", "status": "active", "currentTask": "Dashboard real-time updates"}
+  ],
+  "crons": {
+    "total": 12,
+    "active": 12,
+    "lastRun": "2026-02-17T05:38:52Z"
+  }
+}
