@@ -5,9 +5,9 @@
       "name": "SPM Agent",
       "emoji": "📊",
       "status": "active",
-      "currentTask": "Episode Research",
-      "lastActivity": "2026-02-16T16:39:00Z",
-      "tasksCompleted": 1,
+      "currentTask": "Content Creation",
+      "lastActivity": "2026-02-17T10:21:00Z",
+      "tasksCompleted": 2,
       "brand": "SPM"
     },
     {
@@ -15,9 +15,9 @@
       "name": "JETR Agent",
       "emoji": "✈️",
       "status": "active",
-      "currentTask": "Content Planning",
-      "lastActivity": "2026-02-16T16:39:00Z",
-      "tasksCompleted": 1,
+      "currentTask": "Content Creation",
+      "lastActivity": "2026-02-17T10:21:00Z",
+      "tasksCompleted": 2,
       "brand": "JETR"
     },
     {
@@ -34,10 +34,10 @@
       "id": "xspecialist",
       "name": "X Specialist",
       "emoji": "🐦",
-      "status": "idle",
-      "currentTask": null,
-      "lastActivity": "2026-02-16T16:41:00Z",
-      "tasksCompleted": 1,
+      "status": "active",
+      "currentTask": "Tweet Research",
+      "lastActivity": "2026-02-17T10:48:00Z",
+      "tasksCompleted": 2,
       "brand": "OPS"
     },
     {
@@ -46,8 +46,8 @@
       "emoji": "🎨",
       "status": "idle",
       "currentTask": null,
-      "lastActivity": null,
-      "tasksCompleted": 0,
+      "lastActivity": "2026-02-17T10:35:00Z",
+      "tasksCompleted": 1,
       "brand": "OPS"
     },
     {
@@ -56,16 +56,26 @@
       "emoji": "💻",
       "status": "idle",
       "currentTask": null,
+      "lastActivity": "2026-02-17T10:04:00Z",
+      "tasksCompleted": 2,
+      "brand": "OPS"
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok Agent",
+      "emoji": "🎬",
+      "status": "idle",
+      "currentTask": null,
       "lastActivity": null,
       "tasksCompleted": 0,
       "brand": "OPS"
     }
   ],
   "summary": {
-    "total": 6,
-    "active": 2,
+    "total": 7,
+    "active": 3,
     "idle": 4,
     "error": 0
   },
-  "updatedAt": "2026-02-16T16:42:00Z"
+  "updatedAt": "2026-02-17T10:52:00Z"
 }

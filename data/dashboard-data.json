@@ -1,9 +1,9 @@
 {
-  "lastUpdated": 1771324850000,
+  "lastUpdated": 1771328453000,
   "crypto": {
-    "btc": {"price": 67846, "change24h": -1.4460243871084058},
-    "eth": {"price": 1965.6, "change24h": -0.7917338478319454},
-    "sol": {"price": 0, "change24h": 0}
+    "btc": {"price": 67782, "change24h": -1.224},
+    "eth": {"price": 1967, "change24h": -0.117},
+    "sol": {"price": 85, "change24h": -0.375}
   },
   "tasks": {
     "backlog": 11,
@@ -14,17 +14,80 @@
     "total": 23
   },
   "agents": [
-    {"id": "alice", "name": "Alice", "status": "active", "tokensUsed": 200000, "cost": 3.00},
-    {"id": "spm", "name": "SPM Agent", "status": "idle", "tasksCompleted": 1},
-    {"id": "jetr", "name": "JETR Agent", "status": "idle", "tasksCompleted": 1},
-    {"id": "markets", "name": "Markets Agent", "status": "idle", "tasksCompleted": 1},
-    {"id": "xspecialist", "name": "X Specialist", "status": "idle", "tasksCompleted": 0},
-    {"id": "creative", "name": "Creative Agent", "status": "idle", "tasksCompleted": 0},
-    {"id": "webdev", "name": "WebDev Agent", "status": "active", "currentTask": "Dashboard real-time updates"}
-  ],
+  {
+    "id": "spm",
+    "name": "SPM Agent",
+    "emoji": "📊",
+    "status": "active",
+    "currentTask": "Content Creation",
+    "lastActivity": "2026-02-17T10:21:00Z",
+    "tasksCompleted": 2,
+    "brand": "SPM"
+  },
+  {
+    "id": "jetr",
+    "name": "JETR Agent",
+    "emoji": "✈️",
+    "status": "active",
+    "currentTask": "Content Creation",
+    "lastActivity": "2026-02-17T10:21:00Z",
+    "tasksCompleted": 2,
+    "brand": "JETR"
+  },
+  {
+    "id": "markets",
+    "name": "Markets Agent",
+    "emoji": "💰",
+    "status": "idle",
+    "currentTask": null,
+    "lastActivity": "2026-02-16T16:39:00Z",
+    "tasksCompleted": 1,
+    "brand": "OPS"
+  },
+  {
+    "id": "xspecialist",
+    "name": "X Specialist",
+    "emoji": "🐦",
+    "status": "active",
+    "currentTask": "Tweet Research",
+    "lastActivity": "2026-02-17T10:48:00Z",
+    "tasksCompleted": 2,
+    "brand": "OPS"
+  },
+  {
+    "id": "creative",
+    "name": "Creative Agent",
+    "emoji": "🎨",
+    "status": "idle",
+    "currentTask": null,
+    "lastActivity": "2026-02-17T10:35:00Z",
+    "tasksCompleted": 1,
+    "brand": "OPS"
+  },
+  {
+    "id": "webdev",
+    "name": "WebDev Agent",
+    "emoji": "💻",
+    "status": "idle",
+    "currentTask": null,
+    "lastActivity": "2026-02-17T10:04:00Z",
+    "tasksCompleted": 2,
+    "brand": "OPS"
+  },
+  {
+    "id": "tiktok",
+    "name": "TikTok Agent",
+    "emoji": "🎬",
+    "status": "idle",
+    "currentTask": null,
+    "lastActivity": null,
+    "tasksCompleted": 0,
+    "brand": "OPS"
+  }
+],
   "crons": {
     "total": 12,
     "active": 12,
-    "lastRun": "2026-02-17T10:40:50Z"
+    "lastRun": "2026-02-17T11:40:53Z"
   }
 }
