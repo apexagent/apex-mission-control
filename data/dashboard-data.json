@@ -1,9 +1,9 @@
 {
-  "lastUpdated": 1771371652000,
+  "lastUpdated": 1771375252000,
   "crypto": {
-    "btc": {"price": 67509, "change24h": -1.731},
-    "eth": {"price": 1994, "change24h": -0.056},
-    "sol": {"price": 85, "change24h": -1.379}
+    "btc": {"price": 67540, "change24h": -2.034},
+    "eth": {"price": 1993, "change24h": -0.331},
+    "sol": {"price": 85, "change24h": -1.522}
   },
   "tasks": {
     "backlog": 11,
@@ -88,6 +88,6 @@
   "crons": {
     "total": 12,
     "active": 12,
-    "lastRun": "2026-02-17T23:40:52Z"
+    "lastRun": "2026-02-18T00:40:52Z"
   }
 }
